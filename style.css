@@ -1,0 +1,97 @@
+@import "styles/reset.css";
+
+/* -------------------- */
+/* -- General Styles -- */
+/* -------------------- */
+#wrap { width: 850px; margin: 0 auto; background: url(images/main-bg.png) repeat-x; background-color: #fff; }
+body { font-family: arial, sans-serif; background: url(images/pattern-bg.png) repeat; color: #555; }
+h1 { font-size: 38px; margin: 0 0 30px 0; }
+h2 { font-size: 28px; margin: 0 0 50px 0; }
+h3 { font-size: 26px; margin: 40px 0 15px 0; }
+h4 { font-size: 20px; margin: 30px 0 15px 0;}
+h5 { font-size: 18px; margin: 30px 0 5px 0;}
+p { font-size: 14px; line-height: 22px; margin: 0 0 15px 0; }
+a { text-decoration: none; color: #00aeef; }
+a:hover { color: #333; }
+.line { clear: both; border-bottom: 1px #ddd solid; }
+.project-line { clear: both; border-bottom: 1px #ddd dotted; padding-top: 40px; margin-bottom: 55px; }
+.hide { display: none; }
+
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+#header { float: left; margin: 65px 0 0 0; width: 100%; }
+#header h1 { background: url(images/logo.png) no-repeat; width: 297px; height: 58px; text-indent: -9999px; margin: 0 auto; }
+#header h2 { background: url(images/subtitle.png) no-repeat; width: 480px; height: 47px; text-indent: -9999px; margin: 0 auto; }
+
+/* --------- */
+/* -- Nav -- */
+/* --------- */
+#nav { float: left; width: 100%; margin: 50px 0 50px 0; background: url(images/nav-bg.png) repeat-x; border-top: 1px #ddd solid; border-bottom: 1px #ddd solid; height: 62px; }
+#nav ul { float: left; position: relative; left: 50%; height: 21px; padding: 23px 0; }
+#nav ul li { float: left; position: relative; right: 50%; font-size: 18px; }
+#nav ul li a { margin: 0; color: #777; text-decoration: none; text-transform: uppercase; }
+#nav ul li a:hover { color: #00aeef; }
+#nav ul li span { padding: 0 15px; color: #777; }
+#nav li a.current{ color: #00aeef; }
+
+#nav ul ul { background-color: #eee; display: none; margin: 0; padding: 0; width: 260px; height: auto; position: absolute; border: solid 1px #ddd; left: 0px; top: 20px; }
+#nav ul li:hover > ul { display: block; }
+#nav ul ul li:hover a { color: #fff; }
+#nav ul ul li:hover { background: #00aeef !important; color: #fff !important; cursor: pointer; }
+#nav ul ul li { float: none; right: 0; padding: 10px; }
+#nav ul ul a { font-size: 16px; padding: 0 10px; }
+#nav ul li.current_page_item a { color: #00aeef; }
+
+/* --------------- */
+/* -- Frontpage -- */
+/* --------------- */
+#featured-img { clear: both; float: left; text-align: center; margin: -20px 0 15px 0; width: 850px; }
+#featured-img img { margin: 0 auto; }
+#frontpage-content { float: left; background: url(images/content-bg.png) repeat-x; border-top: 1px #ddd solid; }
+#about { float: left; width: 750px; padding-left: 50px; margin: 40px 0 40px 0; }
+#about-details { float: left; width: 750px;}
+#about-details h3 { font-size: 22px; color: #555; margin: 0 0 15px 0; }
+#about-details p { font-size: 14px; margin-bottom: 14px; }
+#about-details a { font-size: 14px; }
+#featured-project { float: right; margin-right: 50px; }
+#featured-project img { border: 1px #ddd solid; }
+#services { float: left; border-top: 1px #ddd solid; width: 100%; }
+.frontpage-section { float: left; width: 320px; margin-left: 50px;  }
+.frontpage-section h4 { font-size: 20px; color: #555; }
+.frontpage-section p  { font-size: 12px; }
+.first { margin-left: 0; border-right: 1px solid #ddd; padding: 0 30px 0 50px; }
+.button { background: url(images/button-bg.png) no-repeat; width: 102px; height: 38px; display: block; color: #fff; font-size: 12px; text-align: center; padding: 13px 0; margin: 0 0 0 -6px; }
+.button:hover { color: #222; }
+
+/* ------------- */
+/* -- Content -- */
+/* ------------- */
+#main { float: left; padding: 0 50px; margin-bottom: 50px; }
+#content { float: left; padding: 0 50px; margin-bottom: 50px; width: 500px; }
+.title { margin-bottom: 30px; }
+
+/* ------------- */
+/* -- Project -- */
+/* ------------- */
+.project { width: 700px; }
+.project-details { float: left; }
+.project h3 { font-size: 24px; margin: 0 0 20px 0;   }
+.project p { width: 380px; font-size: 14px; line-height: 22px; }
+.project img { float: right; border: 0px #ddd solid; }
+
+/* ------------- */
+/* -- Contact -- */
+/* ------------- */
+#contact-form { width: 300px; }
+#contact-form input { border: 1px #ddd solid; padding: 15px; width: 225px; margin: 0 0 15px 0; font-family: arial; color: #555; font-size: 12px; }
+#contact-form textarea { border: 1px #ddd solid; padding: 15px; width: 300px; margin: 0 0 15px 0; font-family: arial; color: #555; font-size: 12px; line-height: 18px; }
+#contact-form .submit { background: url(images/button-bg.png) no-repeat; border: none; width: 102px; height: 38px; color: #fff; padding: 10px 0; text-align: center; cursor: pointer; margin: 0 0 0 -7px; }
+#contact-form .submit:hover { color: #222; }
+#response { border: 1px #ddd solid; padding: 15px; color: #ff0000; background-color: #eee; }
+
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+#footer { clear: both; background: url(images/footer-bg.png) repeat-x; height: 29px; text-align: center; margin: 30px 0 0 0; border-top: 1px #ddd solid; }
+#footer p { font-size: 12px; color: #888; padding: 4px 0 0 0; margin-bottom: 0; }
