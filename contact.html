@@ -1,43 +1,44 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<head>
-      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-      <title>Contact us</title>
-      <link rel="STYLESHEET" type="text/css" href="contact.css" />
-      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
-</head>
-<body>
-
-<!-- Form Code Start -->
-<form id='contactus' action='https://formspree.io/contact@manitowocmarineband.org' method='post' accept-charset='UTF-8'>
-<fieldset >
-<legend>Contact the Marine Band</legend>
-
-<div class='short_explanation'>* required fields</div>
-<div><span class='error'></span></div>
-<div class='container'>
-    <label for='name' >Your Name*: </label><br/>
-    <input type='text' name='name' id='name' maxlength="50" /><br/>
-    <span id='contactus_name_errorloc' class='error'></span>
-</div>
-<div class='container'>
-    <label for='email' >Email Address*:</label><br/>
-    <input type='text' name='email' id='email' maxlength="50" /><br/>
-    <span id='contactus_email_errorloc' class='error'></span>
-</div>
-
-<div class='container'>
-    <label for='message' >Message:</label><br/>
-    <span id='contactus_message_errorloc' class='error'></span>
-    <textarea rows="10" cols="50" name='message' id='message'></textarea>
-</div>
-
-
-<div class='container'>
-    <input type='submit' name='Submit' value='Submit' />
-</div>
-
-</fieldset>
-</form>
-</body>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<title>Contact us</title>
+		<link rel="STYLESHEET" type="text/css" href="contact.css" />
+		<script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111647619-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-111647619-1');
+		</script>
+	</head>
+	<body>
+		<form id='contactus' action='https://formspree.io/contact@manitowocmarineband.org' method='post' accept-charset='UTF-8'>
+			<fieldset >
+				<legend>Contact the Marine Band</legend>
+				<div class='short_explanation'>* required fields</div>
+				<div><span class='error'></span></div>
+				<div class='container'>
+					<label for='name' >Your Name*: </label><br/>
+					<input type='text' name='name' id='name' maxlength="50" /><br/>
+					<span id='contactus_name_errorloc' class='error'></span>
+				</div>
+				<div class='container'>
+					<label for='email' >Email Address*:</label><br/>
+					<input type='text' name='email' id='email' maxlength="50" /><br/>
+					<span id='contactus_email_errorloc' class='error'></span>
+				</div>
+				<div class='container'>
+					<label for='message' >Message:</label><br/>
+					<span id='contactus_message_errorloc' class='error'></span>
+					<textarea rows="10" cols="50" name='message' id='message'></textarea>
+				</div>
+				<div class='container'>
+					<input type='submit' name='Submit' value='Submit' />
+				</div>
+			</fieldset>
+		</form>
+	</body>
 </html>
