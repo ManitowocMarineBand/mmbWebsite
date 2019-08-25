@@ -27,12 +27,15 @@ a:hover { color: #333; }
 /* --------- */
 /* -- Nav -- */
 /* --------- */
+#nav li + li:before{
+  content: "~";
+  padding: 0 15px;
+}
 #nav { float: left; width: 100%; margin: 50px 0 50px 0; background: url(images/nav-bg.png) repeat-x; border-top: 1px #ddd solid; border-bottom: 1px #ddd solid; height: 62px; }
 #nav ul { float: left; position: relative; left: 50%; height: 21px; padding: 23px 0; }
 #nav ul li { float: left; position: relative; right: 50%; font-size: 18px; }
 #nav ul li a { margin: 0; color: #777; text-decoration: none; text-transform: uppercase; }
 #nav ul li a:hover { color: #00aeef; }
-#nav ul li span { padding: 0 15px; color: #777; }
 #nav li a.current{ color: #00aeef; }
 
 #nav ul ul { background-color: #eee; display: none; margin: 0; padding: 0; width: 260px; height: auto; position: absolute; border: solid 1px #ddd; left: 0px; top: 20px; }
