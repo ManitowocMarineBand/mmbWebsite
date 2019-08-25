@@ -1,6 +1,9 @@
 ---
 title: "Auditions"
 date: 2019-08-24T20:52:02-05:00
+menu: 
+  main:
+    weight: 100
 ---
 ## AUDITIONS
 If interested in the Manitowoc Marine Band, please fill out the form below. The audition may be waived for those with extensive performing experience, or for high school students who attended State Solo & Ensemble (with a solo).
