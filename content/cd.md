@@ -1,7 +1,6 @@
 ---
-title: "Cd"
+title: "CD"
 date: 2019-08-24T20:13:10-05:00
-draft: false
 customCss: "cd.css"
 ---
 
