@@ -3,7 +3,7 @@ title: "History"
 date: 2019-08-24T20:28:19-05:00
 customCss: "history.css"
 ---
-### HISTORY
+## HISTORY
 
 <img src="mmb4b.jpg" class="portrait left" />
 The Manitowoc Marine Band was formed in the fall of 1898 by Frank Moser, a well-known local musician. Mr. Moser's band quickly developed a reputation in the county and surrounding areas. Moser was at the helm of the Marine Band for fifteen years until his death in 1913. At that time the band was reorganized and band member Emil Sohrweide was elected director and manager. Mr. Sohrweide was to become the city's "grand old man of music," serving 43 years as director of the Manitowoc Marine Band, and 52 years as a band member.
