@@ -3,7 +3,13 @@
 /* -------------------- */
 /* -- General Styles -- */
 /* -------------------- */
-#wrap { width: 850px; margin: 0 auto; background: linear-gradient(180deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); background-color: #fff; }
+#wrap { 
+  width: 850px; 
+  margin: 0 auto; 
+  background: linear-gradient(180deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); 
+  background-color: #fff; 
+}
+
 body { font-family: arial, sans-serif; background-color: #2b1e27; color: #555; }
 h1 { font-size: 38px; margin: 0 0 30px 0; }
 h2 { font-size: 28px; margin: 0 0 30px 0; }
@@ -21,13 +27,25 @@ a:hover { color: #333; }
 /* -- Header -- */
 /* ------------ */
 #header { float: left; margin: 30px 0 0 0; width: 100%; }
-#header h1 { background: url(images/logo.png) no-repeat; width: 297px; height: 58px; text-indent: -9999px; margin: 0 auto; }
-#header h2 { background: url(images/subtitle.png) no-repeat; width: 480px; height: 47px; text-indent: -9999px; margin: 0 auto; }
+#header h1 { 
+  width: 297px; 
+  height: 58px; 
+  text-indent: -9999px; 
+  margin: 0 auto;
+ }
 
 /* --------- */
 /* -- Nav -- */
 /* --------- */
-#nav { float: left; width: 100%; margin: 30px 0; background: url(images/nav-bg.png) repeat-x; border-top: 1px #ddd solid; border-bottom: 1px #ddd solid; height: 62px; }
+#nav { 
+  float: left; 
+  width: 100%; 
+  margin: 30px 0; 
+  background-color: rgba(238,238,238,1);
+  border-top: 1px #ddd solid; 
+  border-bottom: 1px #ddd solid; 
+  height: 62px; 
+}
 #nav li + li:before{
   content: "~";
   padding: 0 15px;
