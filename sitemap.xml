@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://www.manitowocmarineband.org/contact/thanks/</loc>
+    <lastmod>2019-08-24T21:01:34-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.manitowocmarineband.org/auditions/</loc>
     <lastmod>2019-08-24T20:52:02-05:00</lastmod>
   </url>
@@ -39,6 +44,12 @@
   
   <url>
     <loc>https://www.manitowocmarineband.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.manitowocmarineband.org/contact/</loc>
+    <lastmod>2019-08-24T21:01:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
