@@ -25,7 +25,7 @@ menu:
       <textarea rows="10" cols="50" name='message' id='message'></textarea>
     </div>
     <div class='container'>
-      <input type="hidden" name="after" value="https://www.manitowocmarineband.org/contact/thanks/index.html" />
+      <input type="hidden" name="after" value="{{< ref thanks >}}" />
       <input type='submit' name='Submit' value='Submit' />
     </div>
   </fieldset>
