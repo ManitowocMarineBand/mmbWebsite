@@ -5,9 +5,8 @@
 </div>
 <div id="nav">
     <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}" {{if $currentPage.IsMenuCurrent "main" .}}class="current"{{end}}>{{.Name}}</a></li>
+        {{ $currentPage := . }} {{ range .Site.Menus.main }}
+        <li><a href="{{.URL}}" {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)}}class="current" {{end}}>{{.Name}}</a></li>
         {{end}}
     </ul>
 </div>
