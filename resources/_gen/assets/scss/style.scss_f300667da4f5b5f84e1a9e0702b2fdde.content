@@ -156,6 +156,8 @@ a:hover {
     width: 550px; }
   #main.Directors img.portrait {
     width: 183px; }
+  #main.History img {
+    height: 199px; }
 
 img.left {
   float: left;
