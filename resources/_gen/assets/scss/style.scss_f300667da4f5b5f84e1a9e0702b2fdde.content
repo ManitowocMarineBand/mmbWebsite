@@ -152,9 +152,9 @@ a:hover {
   #main.Contact input, #main.Contact textarea {
     margin-top: 5px;
     margin-bottom: 10px; }
-  #main.CD img.portrait {
+  #main.CD img {
     width: 550px; }
-  #main.Directors img.portrait {
+  #main.Directors img {
     width: 183px; }
   #main.History img {
     height: 199px; }

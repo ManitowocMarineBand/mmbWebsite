@@ -6,7 +6,7 @@ menu:
     weight: 200
 ---
 ## CD
-<img src="MmbCdCover.png" class="portrait left" alt="CD Cover" />
+<img src="MmbCdCover.png" class="left" alt="CD Cover" />
 $10, available at:
 
   * ACE Hardware
