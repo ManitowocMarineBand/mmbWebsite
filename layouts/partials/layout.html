@@ -7,7 +7,6 @@
         />
         {{ $style := resources.Get "style.scss" | resources.ToCSS }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
-        {{ with .Params.customCss }} <link rel="stylesheet" href="{{.}}" /> {{ end }}
         {{ template "_internal/google_analytics_async.html" . }}
     </head>
     <body>
