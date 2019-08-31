@@ -188,6 +188,12 @@ a:hover {
 			margin-bottom: 10px;
 		}
 	}
+
+	&.CD {
+		& img.portrait {
+			width:550px;
+		}
+	}
 }
 
 img.left {
