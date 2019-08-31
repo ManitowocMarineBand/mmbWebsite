@@ -1,13 +1,12 @@
 ---
 title: "CD"
 date: 2019-08-24T20:13:10-05:00
-customCss: "cd.css"
 menu: 
   main:
     weight: 200
 ---
 ## CD
-<img src="MmbCdCover.png" class="portrait" alt="CD Cover" />
+<img src="MmbCdCover.png" class="left" alt="CD Cover" />
 $10, available at:
 
   * ACE Hardware

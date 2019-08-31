@@ -174,6 +174,38 @@ a:hover {
 	float: left;
 	padding: 0 50px;
 	margin-bottom: 50px;
+
+	&.Contact {
+		h2 {
+			margin-bottom: 5px;
+		}
+		h5 {
+			margin-top: 5px;
+			margin-bottom: 20px;
+		}
+		input,textarea {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+	}
+
+	&.CD {
+		img {
+			width:550px;
+		}
+	}
+
+	&.Directors {
+		img {
+			width:183px;
+		}
+	}
+
+	&.History {
+		img {
+			height: 199px;
+		}
+	}
 }
 
 img.left {

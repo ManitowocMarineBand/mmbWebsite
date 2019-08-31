@@ -1,7 +1,6 @@
 ---
 title: "Contact"
 date: 2019-08-24T21:01:34-05:00
-customCss: "contact.css"
 menu: 
   main:
     weight: 300

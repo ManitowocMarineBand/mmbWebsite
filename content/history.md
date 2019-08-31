@@ -1,7 +1,6 @@
 ---
 title: "History"
 date: 2019-08-24T20:28:19-05:00
-customCss: "history.css"
 menu: 
   main:
     weight: 500
