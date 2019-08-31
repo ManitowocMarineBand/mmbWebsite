@@ -144,6 +144,14 @@ a:hover {
   float: left;
   padding: 0 50px;
   margin-bottom: 50px; }
+  #main.Contact h2 {
+    margin-bottom: 5px; }
+  #main.Contact h5 {
+    margin-top: 5px;
+    margin-bottom: 20px; }
+  #main.Contact input, #main.Contact textarea {
+    margin-top: 5px;
+    margin-bottom: 10px; }
 
 img.left {
   float: left;
@@ -152,17 +160,6 @@ img.left {
 img.right {
   float: right;
   margin-left: 15px; }
-
-#main.Contact h2 {
-  margin-bottom: 5px; }
-
-#main.Contact h5 {
-  margin-top: 5px;
-  margin-bottom: 20px; }
-
-#main.Contact input, textarea {
-  margin-top: 5px;
-  margin-bottom: 10px; }
 
 /* -- Footer -- */
 #footer {
