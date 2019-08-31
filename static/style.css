@@ -186,6 +186,20 @@ img.right {
 	margin-left: 15px;
 }
 
+#main.Contact h2 {
+	margin-bottom: 5px;
+}
+
+#main.Contact h5 {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#main.Contact input,textarea {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
 /* -- Footer -- */
 #footer {
 	clear: both;
