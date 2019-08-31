@@ -137,7 +137,8 @@ a:hover {
     margin-top: 5px;
     margin-bottom: 10px; }
   #main.CD img {
-    width: 550px; }
+    width: 527px;
+    margin-right: 38px; }
   #main.Directors img {
     width: 183px; }
   #main.History img {
