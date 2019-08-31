@@ -154,6 +154,8 @@ a:hover {
     margin-bottom: 10px; }
   #main.CD img.portrait {
     width: 550px; }
+  #main.Directors img.portrait {
+    width: 183px; }
 
 img.left {
   float: left;

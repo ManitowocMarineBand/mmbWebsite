@@ -1,7 +1,6 @@
 ---
 title: "Directors"
 date: 2019-08-24T16:38:30-05:00
-customCss: "directors.css"
 menu: 
   main:
     weight: 400

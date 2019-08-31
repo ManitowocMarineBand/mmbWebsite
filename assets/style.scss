@@ -176,22 +176,28 @@ a:hover {
 	margin-bottom: 50px;
 
 	&.Contact {
-		& h2 {
+		h2 {
 			margin-bottom: 5px;
 		}
-		& h5 {
+		h5 {
 			margin-top: 5px;
 			margin-bottom: 20px;
 		}
-		& input,textarea {
+		input,textarea {
 			margin-top: 5px;
 			margin-bottom: 10px;
 		}
 	}
 
 	&.CD {
-		& img.portrait {
+		img.portrait {
 			width:550px;
+		}
+	}
+
+	&.Directors {
+		img.portrait {
+			width:183px;
 		}
 	}
 }
