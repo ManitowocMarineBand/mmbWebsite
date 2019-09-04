@@ -7,7 +7,7 @@ menu:
 ---
 ## CD
 
-{{< img src="MmbCdCover.png" resize="527x" class="left" alt="CD Cover" >}}
+{{< img src="general/MmbCdCover.png" class="left" alt="CD Cover" >}}
 
 $10, available at:
 
