@@ -1,4 +1,8 @@
-{{ .Scratch.Set "img" (resources.Get (.Get "src")) }} {{ if .Get "resize" }} {{ .Scratch.Set "img" ((.Scratch.Get "img").Resize (.Get "resize")) }} {{ end }} {{ $img := .Scratch.Get "img" }}
+{{ .Scratch.Set "img" (resources.Get (.Get "src")) }} 
+{{ if .Get "resize" }} 
+    {{ .Scratch.Set "img" ((.Scratch.Get "img").Resize (.Get "resize")) }} 
+{{ end }} 
+{{ $img := .Scratch.Get "img" }}
 <p>
     <img src="{{ $img.RelPermalink }}" {{ with (.Get "alt") }}alt="{{ . }}" {{ end }} {{ with (.Get "class") }}class="{{ . }}" {{ end }}/>
 </p>
