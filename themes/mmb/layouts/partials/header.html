@@ -1,0 +1,12 @@
+<div id="header">
+  <div align="center">
+      <img src="/images/mmb-banner-logo-final.svg" width="750" height="145" />
+  </div>
+</div>
+<div id="nav">
+  <ul>
+      {{ $currentPage := . }} {{ range .Site.Menus.main }}
+      <li><a href="{{.URL}}" {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .)}}class="current" {{end}}>{{.Name}}</a></li>
+      {{end}}
+  </ul>
+</div>
