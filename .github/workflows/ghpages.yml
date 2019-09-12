@@ -14,12 +14,12 @@ jobs:
       - uses: actions/checkout@master
 
       - name: build
-        uses: peaceiris/actions-hugo@v0.58.1
+        uses: docker://peaceiris/gha-hugo:latest
         with:
           args: --gc --cleanDestinationDir
 
       - name: deploy
-        uses: peaceiris/actions-gh-pages@v2.2.0
+        uses: docker://peaceiris/gh-pages:latest
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
