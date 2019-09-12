@@ -25,7 +25,7 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
       - name: Purge cache
-        uses: jakejarvis/cloudflare-purge-action@master
+        uses: docker://jakejarvis/cloudflare-purge-action:latest
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
