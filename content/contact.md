@@ -24,6 +24,7 @@ menu:
       <textarea rows="10" cols="50" name='message' id='message'></textarea>
     </div>
     <div class='container'>
+     <input type="text" name="trapit" value="" style="display:none">
       <input type="hidden" name="after" value="{{< ref contact_thanks >}}" />
       <input type='submit' name='Submit' value='Submit' />
     </div>
