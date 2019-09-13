@@ -19,11 +19,13 @@ jobs:
           args: --gc --cleanDestinationDir
 
       - name: deploy
-        uses: docker://peaceiris/gh-pages:latest
+        uses: kingofzeal/actions-gh-pages@optionalEmptyCommits
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
+        with:
+          emptyCommits: false
       - name: Purge cache
         uses: docker://jakejarvis/cloudflare-purge-action:latest
         env:
