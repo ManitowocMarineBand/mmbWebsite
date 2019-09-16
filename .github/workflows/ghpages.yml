@@ -19,7 +19,7 @@ jobs:
           args: --gc --cleanDestinationDir
 
       - name: deploy
-        uses: kingofzeal/actions-gh-pages@optionalEmptyCommits
+        uses: kingofzeal/actions-gh-pages@temp
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
