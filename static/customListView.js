@@ -314,7 +314,7 @@ Docs & License: https://fullcalendar.io/
             },
             listYear: {
                 type: 'list',
-                duration: { month: 12 },
+                duration: { day: 370 },
                 listDayAltFormat: { weekday: 'long' } // day-of-week is nice-to-have
             }
         }
