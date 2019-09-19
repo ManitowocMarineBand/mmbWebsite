@@ -208,6 +208,21 @@ a:hover {
 			height: 199px;
 		}
 	}
+
+	&.Schedule {
+		.fc-list-item-location {
+			font-size: 75%;
+			margin-bottom: 1em;
+		}
+		
+		.fc-list-item-title {
+			font-weight: bold;
+		}
+
+		.other-event span.fc-event-dot {
+			background-color: red;
+		}
+	}
 }
 
 img.left {

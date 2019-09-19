@@ -145,6 +145,13 @@ a:hover {
     width: 183px; }
   #main.History img {
     height: 199px; }
+  #main.Schedule .fc-list-item-location {
+    font-size: 75%;
+    margin-bottom: 1em; }
+  #main.Schedule .fc-list-item-title {
+    font-weight: bold; }
+  #main.Schedule .other-event span.fc-event-dot {
+    background-color: red; }
 
 img.left {
   float: left;

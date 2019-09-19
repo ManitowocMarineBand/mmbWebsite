@@ -5,13 +5,13 @@ menu:
   main:
     weight: 600
 ---
-## 2019 SCHEDULE
+## UPCOMING SCHEDULE
 
 <link href="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css" rel="stylesheet">
 <link href="https://unpkg.com/@fullcalendar/list@4.3.0/main.min.css" rel="stylesheet">
 <script src="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js"></script>
-<script src="https://unpkg.com/@fullcalendar/list@4.3.0/main.min.js"></script>
 <script src="https://unpkg.com/@fullcalendar/google-calendar@4.3.0/main.min.js"></script>
+<script src="/customListView.js"></script>
 
 <script type='text/javascript'>
   document.addEventListener('DOMContentLoaded', function() {
@@ -19,17 +19,19 @@ menu:
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       plugins: [ 'list', 'googleCalendar' ],
-      views: {
-        listAll: {
-          type: 'listYear',
-          duration: {
-            years: 999
-          }
-        }
-      },
-      defaultView: 'listAll',
+      header: false,
+      defaultView: 'listYear',
       googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
-      events: 'manitowocmarineband.org_t157r5a71378md7r86m4jn5lc0@group.calendar.google.com',
+      eventSources: [
+        {
+          googleCalendarId: 'manitowocmarineband.org_t157r5a71378md7r86m4jn5lc0@group.calendar.google.com'
+        },
+        {
+          googleCalendarId: 'manitowocmarineband.org_qin5q3e7s39jlqsd4p1hfu9ino@group.calendar.google.com',
+          className: 'other-event'
+        }
+      ],
+      height: 'auto'
     });
 
     calendar.render();
@@ -37,4 +39,3 @@ menu:
 </script>
 
 <div id="calendar"></div>
-<iframe src="https://drive.google.com/file/d/10uRlKPWz2ggQbP5Xmo1soT_s7whGCh_S/preview" width="750" height="968"></iframe>
