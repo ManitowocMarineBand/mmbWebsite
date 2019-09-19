@@ -23,15 +23,14 @@ menu:
       defaultView: 'list',
       duration: { day: 365 },
       googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
-      eventSources: [
-        {
-          googleCalendarId: 'manitowocmarineband.org_t157r5a71378md7r86m4jn5lc0@group.calendar.google.com'
-        },
-        {
-          googleCalendarId: 'manitowocmarineband.org_qin5q3e7s39jlqsd4p1hfu9ino@group.calendar.google.com',
-          className: 'other-event'
+      events: {
+        url: '/event/index.json',
+        extraParams: function() {
+          return {
+            cachebuster: new Date().valueOf()
+          };
         }
-      ],
+      },
       height: 'auto',
       navLinks: false
     });

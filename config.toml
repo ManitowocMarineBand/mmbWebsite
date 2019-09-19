@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Manitowoc Marine Band"
 googleAnalytics = "UA-111647619-1"
 theme = "mmb"
+
+[outputs]
+  section = ["HTML", "JSON"]
