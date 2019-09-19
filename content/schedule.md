@@ -20,7 +20,8 @@ menu:
     var calendar = new FullCalendar.Calendar(calendarEl, {
       plugins: [ 'list', 'googleCalendar' ],
       header: false,
-      defaultView: 'listYear',
+      defaultView: 'list',
+      duration: { day: 365 },
       googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
       eventSources: [
         {
@@ -38,12 +39,17 @@ menu:
     calendar.render();
 
     var calendarOldEl = document.getElementById('calendar_old');
-    var date = new Date();date.setDate(date.getDate() -1);
+    var beginDate = new Date();
+    var endDate = new Date();
+
+    beginDate.setMonth(0);
+    beginDate.setDate(1);
+    endDate.setDate(endDate.getDate() - 1);
 
     var calendar = new FullCalendar.Calendar(calendarOldEl, {
       plugins: [ 'list', 'googleCalendar' ],
       header: false,
-      defaultView: 'listYearOld',
+      defaultView: 'list',
       googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
       eventSources: [
         {
@@ -56,7 +62,8 @@ menu:
       ],
       height: 'auto',
       visibleRange:{
-        end: date
+        start: beginDate,
+        end: endDate
       }
     });
 

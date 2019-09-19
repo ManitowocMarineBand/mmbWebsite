@@ -309,21 +309,8 @@ Docs & License: https://fullcalendar.io/
             list: {
                 class: ListView,
                 buttonTextKey: 'list',
-                listDayFormat: { month: 'long', day: 'numeric', year: 'numeric' } // like "January 1, 2016"
-            },
-            listYear: {
-                type: 'list',
-                duration: { day: 370 },
+                listDayFormat: { month: 'long', day: 'numeric', year: 'numeric' }, // like "January 1, 2016"
                 listDayAltFormat: { weekday: 'long' } // day-of-week is nice-to-have
-            },
-            listYearOld: {
-                type: 'list',
-                duration: { year : 1 },
-                listDayAltFormat: { weekday: 'long' }, // day-of-week is nice-to-have
-                visibleRange:{
-                    start: new Date(new Date().getFullYear(), 0, 1),
-                    end: new Date()
-                }
             }
         }
     });
