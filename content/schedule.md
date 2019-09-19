@@ -31,7 +31,33 @@ menu:
           className: 'other-event'
         }
       ],
-      height: 'auto'
+      height: 'auto',
+      navLinks: false
+    });
+
+    calendar.render();
+
+    var calendarOldEl = document.getElementById('calendar_old');
+    var date = new Date();date.setDate(date.getDate() -1);
+
+    var calendar = new FullCalendar.Calendar(calendarOldEl, {
+      plugins: [ 'list', 'googleCalendar' ],
+      header: false,
+      defaultView: 'listYearOld',
+      googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
+      eventSources: [
+        {
+          googleCalendarId: 'manitowocmarineband.org_t157r5a71378md7r86m4jn5lc0@group.calendar.google.com'
+        },
+        {
+          googleCalendarId: 'manitowocmarineband.org_qin5q3e7s39jlqsd4p1hfu9ino@group.calendar.google.com',
+          className: 'other-event'
+        }
+      ],
+      height: 'auto',
+      visibleRange:{
+        end: date
+      }
     });
 
     calendar.render();
@@ -39,3 +65,6 @@ menu:
 </script>
 
 <div id="calendar"></div>
+
+## Past Events
+<div id="calendar_old"></div>

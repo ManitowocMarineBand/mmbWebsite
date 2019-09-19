@@ -90,7 +90,6 @@ Docs & License: https://fullcalendar.io/
             if (url) {
                 classes.push('fc-has-url');
             }
-            console.log(eventDef);
             return '<tr class="' + classes.join(' ') + '">' +
                 (this.displayEventTime ?
                     '<td class="fc-list-item-time ' + theme.getClass('widgetContent') + '">' +
@@ -316,6 +315,15 @@ Docs & License: https://fullcalendar.io/
                 type: 'list',
                 duration: { day: 370 },
                 listDayAltFormat: { weekday: 'long' } // day-of-week is nice-to-have
+            },
+            listYearOld: {
+                type: 'list',
+                duration: { year : 1 },
+                listDayAltFormat: { weekday: 'long' }, // day-of-week is nice-to-have
+                visibleRange:{
+                    start: new Date(new Date().getFullYear(), 0, 1),
+                    end: new Date()
+                }
             }
         }
     });
