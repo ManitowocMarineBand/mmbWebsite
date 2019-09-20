@@ -152,6 +152,10 @@ a:hover {
     font-weight: bold; }
   #main.Schedule .other-event span.fc-event-dot {
     background-color: red; }
+  #main.Schedule a {
+    color: #555; }
+    #main.Schedule a:hover {
+      color: #555; }
 
 img.left {
   float: left;

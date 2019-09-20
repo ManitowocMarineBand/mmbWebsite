@@ -222,6 +222,13 @@ a:hover {
 		.other-event span.fc-event-dot {
 			background-color: red;
 		}
+
+		a {
+			color: #555;
+			&:hover {
+				color: #555
+			}
+		}
 	}
 }
 
