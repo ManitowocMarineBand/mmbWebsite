@@ -230,6 +230,20 @@ a:hover {
 			}
 		}
 	}
+
+	&.EventDetails {
+		span.label {
+			font-weight: bold;
+		}
+
+		div {
+			margin: 5px 0;
+
+			&.description {
+				margin-top: 15px;
+			}
+		}
+	}
 }
 
 img.left {

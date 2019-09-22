@@ -156,6 +156,12 @@ a:hover {
     color: #555; }
     #main.Schedule a:hover {
       color: #555; }
+  #main.EventDetails span.label {
+    font-weight: bold; }
+  #main.EventDetails div {
+    margin: 5px 0; }
+    #main.EventDetails div.description {
+      margin-top: 15px; }
 
 img.left {
   float: left;
