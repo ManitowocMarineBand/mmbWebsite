@@ -145,6 +145,8 @@ a:hover {
     width: 183px; }
   #main.History img {
     height: 199px; }
+  #main.Schedule .fc-list-item.category-concert .fc-event-dot {
+    background-color: #3788d8; }
   #main.Schedule .fc-list-item-location {
     font-size: 75%;
     margin-bottom: 1em; }

@@ -22,7 +22,7 @@ menu:
       defaultView: 'list',
       duration: { day: 365 },
       events: {
-        url: '/event/index.json',
+        url: '/event/index.json'
       },
       height: 'auto',
       navLinks: false

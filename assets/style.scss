@@ -210,6 +210,13 @@ a:hover {
 	}
 
 	&.Schedule {
+		.fc-list-item {
+			&.category-concert {
+				.fc-event-dot {
+					background-color: #3788d8;
+				}
+			}
+		}
 		.fc-list-item-location {
 			font-size: 75%;
 			margin-bottom: 1em;

@@ -8,7 +8,8 @@
         "allDay": {{ .Params.allday }},
         "url": "{{ .Permalink | absURL }}",
         "extendedProps": {
-            "location": "{{ .Params.location }}",
+            {{ with .Params.location }}"location": "{{ . }}",{{ end }}
+            {{ with .Params.category }}"category": "{{ . }}",{{ end }}
             "description": "{{ trim (.Content | plainify) "\n" }}"
         }
     }
