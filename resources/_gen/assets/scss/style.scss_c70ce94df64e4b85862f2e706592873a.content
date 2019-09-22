@@ -162,6 +162,15 @@ a:hover {
     margin: 5px 0; }
     #main.EventDetails div.description {
       margin-top: 15px; }
+  #main.EventDetails .mapouter, #main.EventDetails .gmap_canvas {
+    height: 500px;
+    width: 750px; }
+  #main.EventDetails .mapouter {
+    position: relative;
+    text-align: right; }
+  #main.EventDetails .gmap_canvas {
+    overflow: hidden;
+    background: none !important; }
 
 img.left {
   float: left;

@@ -243,6 +243,19 @@ a:hover {
 				margin-top: 15px;
 			}
 		}
+		.mapouter, .gmap_canvas {
+			height:500px;
+			width:750px;
+		}
+		.mapouter {
+			position:relative;
+			text-align:right;
+		}
+		.gmap_canvas {
+			overflow:hidden;
+			background:none !important;
+		}
+		
 	}
 }
 
