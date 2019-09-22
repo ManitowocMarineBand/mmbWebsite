@@ -255,7 +255,12 @@ a:hover {
 			overflow:hidden;
 			background:none !important;
 		}
-		
+		h2 {
+			a {
+				font-size: 55%;
+				margin-left: 20px;
+			}
+		}
 	}
 }
 

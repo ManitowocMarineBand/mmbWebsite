@@ -171,6 +171,9 @@ a:hover {
   #main.EventDetails .gmap_canvas {
     overflow: hidden;
     background: none !important; }
+  #main.EventDetails h2 a {
+    font-size: 55%;
+    margin-left: 20px; }
 
 img.left {
   float: left;
