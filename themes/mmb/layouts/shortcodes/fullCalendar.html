@@ -1,59 +1,15 @@
+{{ .Scratch.Set "container" "calendar" }} 
+{{ if .Get "container" }} 
+    {{ .Scratch.Set "container" (.Get "container") }} 
+{{ end }} 
 <script type='text/javascript'>
-    document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
+document.addEventListener('DOMContentLoaded', function() {
+    {{ with .Inner }}
+    {{ . | safeJS }}
+    {{ end }}
+    
+    new FullCalendar.Calendar(document.getElementById('{{ .Scratch.Get "container" }}'), options).render();
+});
+</script>
   
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        plugins: [ 'list', 'googleCalendar' ],
-        header: false,
-        defaultView: 'list',
-        duration: { day: 365 },
-        googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
-        eventSources: [
-          {
-            googleCalendarId: 'manitowocmarineband.org_t157r5a71378md7r86m4jn5lc0@group.calendar.google.com'
-          },
-          {
-            googleCalendarId: 'manitowocmarineband.org_qin5q3e7s39jlqsd4p1hfu9ino@group.calendar.google.com',
-            className: 'other-event'
-          }
-        ],
-        height: 'auto',
-        navLinks: false
-      });
-  
-      calendar.render();
-  
-      var calendarOldEl = document.getElementById('calendar_old');
-      var beginDate = new Date();
-      var endDate = new Date();
-  
-      beginDate.setMonth(0);
-      beginDate.setDate(1);
-      endDate.setDate(endDate.getDate() - 1);
-  
-      var calendar = new FullCalendar.Calendar(calendarOldEl, {
-        plugins: [ 'list', 'googleCalendar' ],
-        header: false,
-        defaultView: 'list',
-        googleCalendarApiKey: 'AIzaSyCTjnKkpaxowdC4yRKVxpipbwPT14yrve8',
-        eventSources: [
-          {
-            googleCalendarId: 'manitowocmarineband.org_t157r5a71378md7r86m4jn5lc0@group.calendar.google.com'
-          },
-          {
-            googleCalendarId: 'manitowocmarineband.org_qin5q3e7s39jlqsd4p1hfu9ino@group.calendar.google.com',
-            className: 'other-event'
-          }
-        ],
-        height: 'auto',
-        visibleRange:{
-          start: beginDate,
-          end: endDate
-        }
-      });
-  
-      calendar.render();
-    });
-  </script>
-  
-  <div id="calendar"></div>
+  <div id="{{ .Scratch.Get "container" }}"></div>

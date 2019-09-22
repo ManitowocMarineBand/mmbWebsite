@@ -13,12 +13,8 @@ customJs:
   - /customListView.js
 ---
 ## UPCOMING SCHEDULE
-
-<script type='text/javascript'>
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-
-    var calendar = new FullCalendar.Calendar(calendarEl, {
+{{< fullCalendar >}}
+  var options = {
       plugins: [ 'list', 'googleCalendar' ],
       header: false,
       defaultView: 'list',
@@ -35,19 +31,19 @@ customJs:
       ],
       height: 'auto',
       navLinks: false
-    });
+    };
+{{< /fullCalendar >}}
 
-    calendar.render();
+## PAST EVENTS
+{{< fullCalendar container="calendar_old" >}}
+  var beginDate = new Date();
+  var endDate = new Date();
 
-    var calendarOldEl = document.getElementById('calendar_old');
-    var beginDate = new Date();
-    var endDate = new Date();
+  beginDate.setMonth(0);
+  beginDate.setDate(1);
+  endDate.setDate(endDate.getDate() - 1);
 
-    beginDate.setMonth(0);
-    beginDate.setDate(1);
-    endDate.setDate(endDate.getDate() - 1);
-
-    var calendar = new FullCalendar.Calendar(calendarOldEl, {
+  var options = {
       plugins: [ 'list', 'googleCalendar' ],
       header: false,
       defaultView: 'list',
@@ -66,13 +62,5 @@ customJs:
         start: beginDate,
         end: endDate
       }
-    });
-
-    calendar.render();
-  });
-</script>
-
-<div id="calendar"></div>
-
-## Past Events
-<div id="calendar_old"></div>
+    };
+{{< /fullCalendar >}}
