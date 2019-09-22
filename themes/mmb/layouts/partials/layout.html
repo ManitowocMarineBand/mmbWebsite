@@ -7,7 +7,17 @@
         />
         {{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Fingerprint }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+        {{ with .Page.Params.customCss }}
+            {{ range . }}
+            <link rel="stylesheet" href="{{ . }}" media="screen">            
+            {{ end }}
+        {{ end }}
         {{ template "_internal/google_analytics_async.html" . }}
+        {{ with .Page.Params.customJs }}
+            {{ range . }}
+            <script src="{{ . }}"></script>            
+            {{ end }}
+        {{ end }}
     </head>
     <body>
         <div id="wrap">

@@ -4,14 +4,15 @@ date: 2019-08-25T13:42:13-05:00
 menu:
   main:
     weight: 600
+customCss:
+  - https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css
+  - https://unpkg.com/@fullcalendar/list@4.3.0/main.min.css
+customJs:
+  - https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js
+  - https://unpkg.com/@fullcalendar/google-calendar@4.3.0/main.min.js
+  - /customListView.js
 ---
 ## UPCOMING SCHEDULE
-
-<link href="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css" rel="stylesheet">
-<link href="https://unpkg.com/@fullcalendar/list@4.3.0/main.min.css" rel="stylesheet">
-<script src="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js"></script>
-<script src="https://unpkg.com/@fullcalendar/google-calendar@4.3.0/main.min.js"></script>
-<script src="/customListView.js"></script>
 
 <script type='text/javascript'>
   document.addEventListener('DOMContentLoaded', function() {
