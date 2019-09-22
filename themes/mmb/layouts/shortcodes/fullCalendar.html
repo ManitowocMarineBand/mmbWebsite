@@ -1,0 +1,15 @@
+{{ .Scratch.Set "container" "calendar" }} 
+{{ if .Get "container" }} 
+    {{ .Scratch.Set "container" (.Get "container") }} 
+{{ end }} 
+<script type='text/javascript'>
+document.addEventListener('DOMContentLoaded', function() {
+    {{ with .Inner }}
+    {{ . | safeJS }}
+    {{ end }}
+    
+    new FullCalendar.Calendar(document.getElementById('{{ .Scratch.Get "container" }}'), options).render();
+});
+</script>
+  
+  <div id="{{ .Scratch.Get "container" }}"></div>

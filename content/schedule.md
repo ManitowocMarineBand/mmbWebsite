@@ -4,19 +4,16 @@ date: 2019-08-25T13:42:13-05:00
 menu:
   main:
     weight: 600
+customCss:
+  - https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css
+  - https://unpkg.com/@fullcalendar/list@4.3.0/main.min.css
+customJs:
+  - https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js
+  - /customListView.js
 ---
 ## UPCOMING SCHEDULE
-
-<link href="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css" rel="stylesheet">
-<link href="https://unpkg.com/@fullcalendar/list@4.3.0/main.min.css" rel="stylesheet">
-<script src="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js"></script>
-<script src="/customListView.js"></script>
-
-<script type='text/javascript'>
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-
-    var calendar = new FullCalendar.Calendar(calendarEl, {
+{{< fullCalendar >}}
+  var options = {
       plugins: [ 'list' ],
       header: false,
       defaultView: 'list',
@@ -26,19 +23,19 @@ menu:
       },
       height: 'auto',
       navLinks: false
-    });
+    };
+{{< /fullCalendar >}}
 
-    calendar.render();
+## PAST EVENTS
+{{< fullCalendar container="calendar_old" >}}
+  var beginDate = new Date();
+  var endDate = new Date();
 
-    var calendarOldEl = document.getElementById('calendar_old');
-    var beginDate = new Date();
-    var endDate = new Date();
+  beginDate.setMonth(0);
+  beginDate.setDate(1);
+  endDate.setDate(endDate.getDate() - 1);
 
-    beginDate.setMonth(0);
-    beginDate.setDate(1);
-    endDate.setDate(endDate.getDate() - 1);
-
-    var calendar = new FullCalendar.Calendar(calendarOldEl, {
+  var options = {
       plugins: [ 'list' ],
       header: false,
       defaultView: 'list',
@@ -50,13 +47,5 @@ menu:
         start: beginDate,
         end: endDate
       }
-    });
-
-    calendar.render();
-  });
-</script>
-
-<div id="calendar"></div>
-
-## Past Events
-<div id="calendar_old"></div>
+    };
+{{< /fullCalendar >}}
