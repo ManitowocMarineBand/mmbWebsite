@@ -65,6 +65,9 @@ Docs & License: https://fullcalendar.io/
             var eventUi = eventRange.ui;
             var url = eventDef.url;
             var classes = ['fc-list-item'].concat(eventUi.classNames);
+            if (eventDef.extendedProps.category){
+                classes.push('category-' + eventDef.extendedProps.category);
+            }
             var bgColor = eventUi.backgroundColor;
             var timeHtml;
             if (eventDef.allDay) {
