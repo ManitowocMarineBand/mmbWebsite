@@ -261,6 +261,10 @@ a:hover {
 		.gmap_canvas {
 			overflow:hidden;
 			background:none !important;
+			iframe {
+				height: 100%;
+				width: 100%;
+			}
 		}
 		h2 {
 			a {
