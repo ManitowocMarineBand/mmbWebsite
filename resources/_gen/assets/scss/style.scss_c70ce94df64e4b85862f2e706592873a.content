@@ -112,7 +112,7 @@ a:hover {
         right: 0;
         padding: 10px; }
         #nav ul ul li:hover {
-          background: #00aeef !important;
+          background-color: #00aeef !important;
           color: #fff !important;
           cursor: pointer; }
           #nav ul ul li:hover a {

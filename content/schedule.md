@@ -14,16 +14,16 @@ customJs:
 ## UPCOMING SCHEDULE
 {{< fullCalendar >}}
   var options = {
-      plugins: [ 'list' ],
-      header: false,
-      defaultView: 'list',
-      duration: { day: 365 },
-      events: {
-        url: '/event/index.json'
-      },
-      height: 'auto',
-      navLinks: false
-    };
+    plugins: [ 'list' ],
+    header: false,
+    defaultView: 'list',
+    duration: { day: 365 },
+    events: {
+      url: '/event/index.json'
+    },
+    height: 'auto',
+    navLinks: false
+  };
 {{< /fullCalendar >}}
 
 ## PAST EVENTS
@@ -36,16 +36,16 @@ customJs:
   endDate.setDate(endDate.getDate() - 1);
 
   var options = {
-      plugins: [ 'list' ],
-      header: false,
-      defaultView: 'list',
-      events: {
-        url: '/event/index.json'
-      },
-      height: 'auto',
-      visibleRange:{
-        start: beginDate,
-        end: endDate
-      }
-    };
+    plugins: [ 'list' ],
+    header: false,
+    defaultView: 'list',
+    events: {
+      url: '/event/index.json'
+    },
+    height: 'auto',
+    visibleRange:{
+      start: beginDate,
+      end: endDate
+    }
+  };
 {{< /fullCalendar >}}
