@@ -5,7 +5,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "events"
     label: "Event"
-    folder: "event"
+    folder: "content/event"
     filter:
       field: language
       value: en
