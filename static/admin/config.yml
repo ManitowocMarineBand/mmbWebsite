@@ -3,13 +3,18 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 collections:
-  - name: "posts"
-    label: "Post"
-    folder: "_posts"
+  - name: "events"
+    label: "Event"
+    folder: "event"
     filter:
       field: language
       value: en
     fields:
-      - {label: "Language", name: "language"}
+      - { name: "title", label: "Title" }
+      - { name: "allday", label: "All Day?", widget: "boolean" }
+      - { name: "startDate", label: "Start Time", widget: "datetime" }
+      - { name: "endDate", label: "End Time", widget: "datetime" }
+      - { name: "location", label: "Location" }
+      - { name: "body", label: "Description", widget: "text" }
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
