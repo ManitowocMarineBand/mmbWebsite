@@ -1,31 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Manitowoc Marine Band | {{ .Title }}</title>
-        <meta name="Keywords" content="Manitowoc Marine Band" />
-        <meta name="Description" content="Since 1898, The Manitowoc Marine Band has brought together a wide variety of area musicians, from high school students to retirees, amateurs to professionals, to learn and hone their skills in the art of wind band music. Each year, this extraordinary collaboration culminates in a series of local concerts, made freely available for the enrichment and enjoyment of an audience of thousands. "
-        />
-        {{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Fingerprint }}
-        <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-        {{ with .Page.Params.customCss }}
-            {{ range . }}
-            <link rel="stylesheet" href="{{ . }}" media="screen">            
-            {{ end }}
-        {{ end }}
-        {{ template "_internal/google_analytics_async.html" . }}
-        {{ with .Page.Params.customJs }}
-            {{ range . }}
-            <script src="{{ . }}"></script>            
-            {{ end }}
-        {{ end }}
-    </head>
-    <body>
-        <div id="wrap">
-            {{ partial "header.html" . }}
-            <div id="main" class="{{ .Page.Title }}">
-                {{ .Content }}
-            </div>
-            {{ partial "footer.html" . }}
-        </div>
-    </body>
-</html>
+<body>
+  <div id="wrap">
+    {{ partial "header.html" . }}
+    <div id="main" class="{{ .Page.Title }}">
+      {{ .Content }}
+    </div>
+  {{ partial "footer.html" . }}
+  </div>
+</body>
