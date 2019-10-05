@@ -10,11 +10,11 @@ menu:
   <fieldset >
     <div class='container'>
       <label for='name' >Your Name: </label><br/>
-      <input type='text' name='name' id='name'/><br/>
+      <input type='text' name='name' id='name' required/><br/>
     </div>
     <div class='container'>
       <label for='email' >Email Address:</label><br/>
-      <input type='text' name='email' id='email'/><br/>
+      <input type='email' name='email' id='email' required/><br/>
     </div>
     <div class='container'>
       <label for='message' >Message:</label><br/>
