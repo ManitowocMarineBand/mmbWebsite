@@ -8,7 +8,7 @@ menu:
 ## CONTACT US
 
 \* required fields
-<form id='contact' method='post' action="/contact_thanks/" data-netlify="true" netlify-honeypot="trapit">
+<form id='Contact' method='post' action="/contact_thanks/" data-netlify="true" netlify-honeypot="trapit">
   <fieldset >
     <div class='container'>
       <label for='name' >Your Name*: </label><br/>
