@@ -1,21 +1,19 @@
 ---
-title: "Contact"
-date: 2019-08-24T21:01:34-05:00
-menu: 
+title: Contact
+menu:
   main:
     weight: 300
 ---
 ## CONTACT US
 
-\* required fields
 <form id='Contact' method='post' action="/contact_thanks/" data-netlify="true" netlify-honeypot="trapit">
   <fieldset >
     <div class='container'>
-      <label for='name' >Your Name*: </label><br/>
+      <label for='name' >Your Name: </label><br/>
       <input type='text' name='name' id='name'/><br/>
     </div>
     <div class='container'>
-      <label for='email' >Email Address*:</label><br/>
+      <label for='email' >Email Address:</label><br/>
       <input type='text' name='email' id='email'/><br/>
     </div>
     <div class='container'>
