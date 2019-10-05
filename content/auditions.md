@@ -8,7 +8,7 @@ menu:
 
 If interested in the Manitowoc Marine Band, please fill out the form below. The audition may be waived for those with extensive performing experience, or for high school students who attended State Solo & Ensemble (with a solo).
 
-Audition consists of: prepared piece (solo or etude recommended), sight-reading, and scales up to 4 flats/sharps..
+Audition consists of: prepared piece (solo or etude recommended), sight-reading, and scales up to 4 flats/sharps.
 
 <form id='Contact' method='post' action="/contact_thanks/" data-netlify="true" netlify-honeypot="trapit">
   <label for='name' required>
