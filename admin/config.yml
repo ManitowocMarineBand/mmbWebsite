@@ -1,0 +1,102 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+collections:
+  - name: "pages"
+    label: "Pages"
+    files: 
+      - name: "home"
+        label: "Home"
+        file: "content/_index.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+      - name: "auditions"
+        label: "Auditions"
+        file: "content/auditions.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+      - name: "cd"
+        label: "CD"
+        file: "content/cd.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+      - name: "contact"
+        label: "Contact"
+        file: "content/contact.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+      - name: "directors"
+        label: "Directors"
+        file: "content/directors.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+      - name: "history"
+        label: "History"
+        file: "content/history.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+      - name: "schedule"
+        label: "Schedule"
+        file: "content/schedule.md"
+        fields: 
+          - { name: "title", label: "Title" }
+          - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
