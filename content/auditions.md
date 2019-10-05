@@ -35,12 +35,12 @@ Audition consists of: prepared piece (solo or etude recommended), sight-reading,
     <span>Musical Experience</span>
     <span class="sub">Please briefly describe your experience and accomplishments.</span>
   </label>      
-  <textarea name='experience' id='experience' required></textarea>
+  <textarea rows="10" name='experience' id='experience' required></textarea>
   <label for='message'>
     <span>Do you know of anyone else who may have interest in the Manitowoc Marine Band?</span>
     <span class="sub">Please include contact information if possible.</span>
   </label>
-  <textarea name='message' id='message'></textarea>
+  <textarea rows="10" name='message' id='message'></textarea>
   <input type="text" name="trapit" value="" style="display:none">
   <input type='submit' name='Submit' value='Submit' />
 </form>
