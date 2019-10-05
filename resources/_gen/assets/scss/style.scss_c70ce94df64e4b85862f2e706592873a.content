@@ -137,6 +137,8 @@ a:hover {
         color: red; }
     #main.Auditions form textarea {
       resize: vertical; }
+    #main.Auditions form input[type="submit"] {
+      margin-top: 15px; }
     #main.Auditions form .sub {
       font-size: .75em; }
   #main.Contact input, #main.Contact textarea {

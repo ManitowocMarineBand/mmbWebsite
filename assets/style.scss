@@ -173,28 +173,35 @@ a:hover {
 	padding: 0 50px;
 	margin-bottom: 50px;
 	
-	&.Auditions form {
-		display: grid;
-	
-		label {
-			white-space: pre-line;
-			
-			&[required] {
-				span {
-					&:first-of-type {
-						&:after {
-							content: " *";
-							color: red;
+	&.Auditions {
+		form {
+			display: grid;
+		
+			label {
+				white-space: pre-line;
+				
+				&[required] {
+					span {
+						&:first-of-type {
+							&:after {
+								content: " *";
+								color: red;
+							}
 						}
 					}
 				}
 			}
-		}
-		textarea {
-			resize: vertical;
-		}
-		.sub {
-			font-size: .75em;
+			textarea {
+				resize: vertical;
+			}
+			input {
+				&[type="submit"] {
+					margin-top: 15px;
+				}
+			}
+			.sub {
+				font-size: .75em;
+			}
 		}
 	}
 
