@@ -128,11 +128,15 @@ a:hover {
   float: left;
   padding: 0 50px;
   margin-bottom: 50px; }
-  #main.Contact h2 {
-    margin-bottom: 5px; }
-  #main.Contact h5 {
-    margin-top: 5px;
-    margin-bottom: 20px; }
+  #main.Auditions form {
+    display: grid; }
+    #main.Auditions form label {
+      white-space: pre-line; }
+      #main.Auditions form label[required] span:first-of-type:after {
+        content: " *";
+        color: red; }
+    #main.Auditions form .sub {
+      font-size: .75em; }
   #main.Contact input, #main.Contact textarea {
     margin-top: 5px;
     margin-bottom: 10px; }

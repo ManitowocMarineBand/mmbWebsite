@@ -172,6 +172,28 @@ a:hover {
 	float: left;
 	padding: 0 50px;
 	margin-bottom: 50px;
+	
+	&.Auditions form {
+		display: grid;
+	
+		label {
+			white-space: pre-line;
+			
+			&[required] {
+				span {
+					&:first-of-type {
+						&:after {
+							content: " *";
+							color: red;
+						}
+					}
+				}
+			}
+		}
+		.sub {
+			font-size: .75em;
+		}
+	}
 
 	&.Contact {
 		input,textarea {
