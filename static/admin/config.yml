@@ -12,5 +12,13 @@ collections:
         fields: 
           - { name: "title", label: "Title" }
           - { name: "body", label: "Content", widget: "markdown" }
+          - name: "menu"
+            widget: "hidden"
+            fields: 
+              - name: "main"
+                widget: "hidden"
+                fields:
+                  - { name: "weight", label: "Menu Order", widget: "number" }
+
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
