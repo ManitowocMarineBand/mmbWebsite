@@ -11,34 +11,34 @@ If interested in the Manitowoc Marine Band, please fill out the form below. The 
 <form id='Contact' method='post' action="/contact_thanks/" data-netlify="true" netlify-honeypot="trapit">
   <fieldset >
     <div class='container'>
-      <label for='email' >Email Address:</label><br/>
-      <input type='text' name='email' id='email'/><br/>
+      <label for='email'>Email Address</label>
+      <input type='email' name='email' id='email' required />
     </div>
     <div class='container'>
-      <label for='name' >Name: </label><br/>
-      <input type='text' name='name' id='name'/><br/>
+      <label for='name'>Name</label>
+      <input type='text' name='name' id='name' required />
     </div>
     <div class='container'>
-      <label for='name' >Primary Instrument: </label><br/>
-      <input type='text' name='name' id='name'/><br/>
+      <label for='instrument'>Primary Instrument</label>
+      <input type='text' name='instrument' id='instrument' required />
     </div>
     <div class='container'>
-      <label for='name' >Secondary Instrument, if applicable: </label><br/>
-      <input type='text' name='name' id='name'/><br/>
+      <label for='secondary'>Secondary Instrument, if applicable </label>
+      <input type='text' name='secondary' id='secondary'/>
     </div>
     <div class='container'>
-      <label for='name' >Phone Number: </label><br/>
-      <input type='text' name='name' id='name'/><br/>
+      <label for='phone'>Phone Number</label>
+      <input type='tel' name='phone' id='phone'/>
     </div>
     <div class='container'>
-      <label for='name' >Musical Experience: </label><br/>
+      <label for='experience'>Musical Experience</label>
       Please briefly describe your experience and accomplishments.
-      <input type='text' name='name' id='name'/><br/>
+      <input type='text' name='experience' id='experience' required />
     </div>
     <div class='container'>
-      <label for='message' >Do you know of anyone else who may have interest in the Manitowoc Marine Band?
+      <label for='message'>Do you know of anyone else who may have interest in the Manitowoc Marine Band?
 
-Please include contact information if possible.:</label><br/>
+Please include contact information if possible.</label><br/>
       <textarea rows="10" cols="50" name='message' id='message'></textarea>
     </div>
     <div class='container'>
