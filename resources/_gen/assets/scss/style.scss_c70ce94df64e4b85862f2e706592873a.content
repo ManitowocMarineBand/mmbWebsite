@@ -135,6 +135,8 @@ a:hover {
       #main.Auditions form label[required] span:first-of-type:after {
         content: " *";
         color: red; }
+    #main.Auditions form textarea {
+      resize: vertical; }
     #main.Auditions form .sub {
       font-size: .75em; }
   #main.Contact input, #main.Contact textarea {
