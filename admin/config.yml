@@ -104,11 +104,13 @@ collections:
     create: true
     delete: true
     extension: md
-    slug: "{{fields.startDate}}-{{slug}}"
+    slug: "{{slug}}"
     filter:
       field: language
       value: en
+    identifier_field: "slug"
     fields:
+      - { name: "slug", label: "File Name" }
       - { name: "title", label: "Title" }
       - { name: "allday", label: "All Day?", widget: "boolean", default: false }
       - { name: "startDate", label: "Start Time", widget: "datetime" }
