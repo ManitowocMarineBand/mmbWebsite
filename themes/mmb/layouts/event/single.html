@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Manitowoc Marine Band | Event Details</title>
+        <meta name="Keywords" content="Manitowoc Marine Band" />
+        <meta name="Description" content="Since 1898, The Manitowoc Marine Band has brought together a wide variety of area musicians, from high school students to retirees, amateurs to professionals, to learn and hone their skills in the art of wind band music. Each year, this extraordinary collaboration culminates in a series of local concerts, made freely available for the enrichment and enjoyment of an audience of thousands. "
+        />
+        {{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Fingerprint }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+        {{ template "_internal/google_analytics_async.html" . }}
+    </head>
+    <body>
+        <div id="wrap">
+            {{ partial "header.html" . }}
+            <div id="main" class="EventDetails">
+                <h2 id="upcoming-schedule">{{ .Page.Title }}
+                    <a href="/schedule/">&larr; Back</a>
+                </h2>
+                <div class="startTime"><span class="label">Start:</span> {{ .Page.Params.startDate | dateFormat "Monday, January 02, 2006 3:04:05 pm" }}</div>
+                <div class="endTime"><span class="label">End:</span> {{ .Page.Params.endDate | dateFormat "Monday, January 02, 2006 3:04:05 pm" }}</div>
+                <div class="location"><span class="label">Location:</span> {{ .Page.Params.location }}</div>
+                <div class="description">{{ .Content }}</div>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q={{ htmlEscape .Page.Params.location }}&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            {{ partial "footer.html" . }}
+        </div>
+    </body>
+</html>

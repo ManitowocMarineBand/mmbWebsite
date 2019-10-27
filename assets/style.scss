@@ -21,7 +21,7 @@ h1 {
 
 h2 {
 	font-size: 28px;
-	margin: 0 0 30px 0;
+	margin: 30px 0;
 }
 
 h3 {
@@ -88,7 +88,7 @@ a:hover {
 #nav {
 	float: left;
 	width: 100%;
-	margin: 30px 0;
+	margin: 30px 0 0 0;
 	background-color: rgba(238, 238, 238, 1);
 	border-top: 1px #ddd solid;
 	border-bottom: 1px #ddd solid;
@@ -145,7 +145,7 @@ a:hover {
 				padding: 10px;
 
 				&:hover {
-					background: #00aeef !important;
+					background-color: #00aeef !important;
 					color: #fff !important;
 					cursor: pointer;
 	
@@ -231,6 +231,71 @@ a:hover {
 	&.History {
 		img {
 			height: 199px;
+		}
+	}
+
+	&.Schedule {
+		.fc-list-item {
+			&.category-concert {
+				.fc-event-dot {
+					background-color: #3788d8;
+				}
+			}
+		}
+		.fc-list-item-location {
+			font-size: 75%;
+			margin-bottom: 1em;
+		}
+		
+		.fc-list-item-title {
+			font-weight: bold;
+		}
+
+		.other-event span.fc-event-dot {
+			background-color: red;
+		}
+
+		a {
+			color: #555;
+			&:hover {
+				color: #555
+			}
+		}
+	}
+
+	&.EventDetails {
+		span.label {
+			font-weight: bold;
+		}
+
+		div {
+			margin: 5px 0;
+
+			&.description {
+				margin-top: 15px;
+			}
+		}
+		.mapouter, .gmap_canvas {
+			height:500px;
+			width:750px;
+		}
+		.mapouter {
+			position:relative;
+			text-align:right;
+		}
+		.gmap_canvas {
+			overflow:hidden;
+			background:none !important;
+			iframe {
+				height: 100%;
+				width: 100%;
+			}
+		}
+		h2 {
+			a {
+				font-size: 55%;
+				margin-left: 20px;
+			}
 		}
 	}
 }
