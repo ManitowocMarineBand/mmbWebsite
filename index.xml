@@ -141,14 +141,5 @@ Name  Email Address  Primary Instrument  Secondary Instrument, if applicable  Ph
       <description>Some of the best music in the past century has been featured on screen in movies and on stage in musicals. The Marine Band will be performing some of the best including music by Rodgers and Hammerstein, The Jersey Boys, The Sound of Music, The Music Man, and many more.</description>
     </item>
     
-    <item>
-      <title>Test new event</title>
-      <link>https://www.manitowocmarineband.org/event/fri-nov-01-2019-13-00-00-gmt-0500-central-daylight-time-test-new-event/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.manitowocmarineband.org/event/fri-nov-01-2019-13-00-00-gmt-0500-central-daylight-time-test-new-event/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur est rhoncus turpis mollis, in ullamcorper ligula pretium. Morbi fermentum, enim id dapibus vestibulum, velit felis varius augue, id rhoncus dui arcu in enim. Nulla id orci sed enim hendrerit molestie sit amet sit amet sem. Pellentesque quam neque, malesuada nec justo nec, finibus euismod dolor. In nulla turpis, fermentum in tortor in, consequat cursus justo. Fusce vehicula nisl augue, ac lobortis lacus porta in.</description>
-    </item>
-    
   </channel>
 </rss>
