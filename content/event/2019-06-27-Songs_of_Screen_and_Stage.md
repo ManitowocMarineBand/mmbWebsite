@@ -1,5 +1,6 @@
 ---
 title: "Songs of Screen and Stage"
+slug: "2019-06-27-Songs_of_Screen_and_Stage"
 draft: false
 type: event
 menu: 

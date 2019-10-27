@@ -1,5 +1,6 @@
 ---
 title: "Christmas Highlights"
+slug: "2019-12-13-Christmas_Highlights"
 draft: false
 type: event
 menu: 

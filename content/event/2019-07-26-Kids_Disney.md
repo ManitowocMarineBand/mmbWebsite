@@ -1,5 +1,6 @@
 ---
 title: "Kids Disney"
+slug: "2019-07-26-Kids_Disney"
 draft: false
 type: event
 menu: 

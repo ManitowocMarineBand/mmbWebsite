@@ -1,5 +1,6 @@
 ---
 title: "Fourth on the Shore"
+slug: "2019-07-04-Fourth_on_the_Shore"
 draft: false
 type: event
 menu: 

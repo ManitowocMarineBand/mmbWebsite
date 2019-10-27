@@ -1,5 +1,6 @@
 ---
 title: "Cruiser Night"
+slug: "2019-08-08-Cruiser_Night"
 draft: false
 type: event
 menu: 

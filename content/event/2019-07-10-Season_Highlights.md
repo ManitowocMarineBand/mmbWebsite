@@ -1,5 +1,6 @@
 ---
 title: "Season Highlights"
+slug: "2019-07-10-Season_Highlights"
 draft: false
 type: event
 menu: 

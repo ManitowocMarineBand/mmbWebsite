@@ -1,5 +1,6 @@
 ---
 title: "Around the World"
+slug: "2019-06-13-Around_the_World"
 draft: false
 type: event
 menu: 
