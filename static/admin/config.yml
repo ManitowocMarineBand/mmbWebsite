@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: master
+slug:
+  sanitize_replacement: "_"
 publish_mode: editorial_workflow
 collections:
   - name: "pages"
@@ -103,6 +105,8 @@ collections:
     folder: "content/event"
     create: true
     delete: true
+    editor:
+      preview: false
     extension: md
     filter:
       field: language
