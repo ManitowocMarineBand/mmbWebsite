@@ -1,13 +1,13 @@
 ---
-title: "Season Highlights"
-slug: "2019-07-10-Season_Highlights"
+title: Season Highlights
+fileName: 2019-07-10 Season Highlights
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
 
-allday: false
+all-day: false
 category: concert
 startDate: "2019-07-10 18:30:00"
 endDate: "2019-07-10 19:30:00"

@@ -1,13 +1,13 @@
 ---
-title: "Kids Disney"
-slug: "2019-07-26-Kids_Disney"
+title: Kids Disney
+fileName: 2019-07-26 Kids Disney
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
 
-allday: false
+all-day: false
 category: concert
 startDate: "2019-07-26 18:30:00"
 endDate: "2019-07-26 19:30:00"

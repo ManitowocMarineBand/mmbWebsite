@@ -5,7 +5,7 @@
         "title": "{{ .Title }}",
         "start": "{{ .Params.startDate }}",
         "end": "{{ .Params.endDate }}",
-        "allDay": {{ .Params.allday }},
+        "allDay": {{ .Params.all-day }},
         "url": "{{ .URL }}",
         "extendedProps": {
             {{ with .Params.location }}"location": "{{ . }}",{{ end }}

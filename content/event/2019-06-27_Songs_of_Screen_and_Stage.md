@@ -1,13 +1,13 @@
 ---
-title: "Songs of Screen and Stage"
-slug: "2019-06-27-Songs_of_Screen_and_Stage"
+title: Songs of Screen and Stage
+fileName: 2019-06-27 Songs of Screen and Stage
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
 
-allday: false
+all-day: false
 category: concert
 startDate: "2019-06-27 18:30:00"
 endDate: "2019-06-27 19:30:00"

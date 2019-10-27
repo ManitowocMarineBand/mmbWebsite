@@ -1,13 +1,13 @@
 ---
-title: "Around the World"
-slug: "2019-06-13-Around_the_World"
+title: Around the World
+fileName: 2019-06-13 Around the World
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
 
-allday: false
+all-day: false
 category: concert
 startDate: "2019-06-13 18:30:00"
 endDate: "2019-06-13 19:30:00"

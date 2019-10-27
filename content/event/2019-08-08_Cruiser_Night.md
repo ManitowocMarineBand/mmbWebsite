@@ -1,13 +1,13 @@
 ---
-title: "Cruiser Night"
-slug: "2019-08-08-Cruiser_Night"
+title: Cruiser Night
+fileName: 2019-08-08 Cruiser Night
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
 
-allday: false
+all-day: false
 category: concert
 startDate: "2019-08-08 18:30:00"
 endDate: "2019-08-08 19:30:00"

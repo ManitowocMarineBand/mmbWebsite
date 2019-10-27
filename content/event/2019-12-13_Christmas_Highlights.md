@@ -1,13 +1,13 @@
 ---
-title: "Christmas Highlights"
-slug: "2019-12-13-Christmas_Highlights"
+title: Christmas Highlights
+fileName: 2019-12-13 Christmas Highlights
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
 
-allday: false
+all-day: false
 category: concert
 startDate: "2019-12-13 19:00:00"
 endDate: "2019-12-13 20:00:00"
