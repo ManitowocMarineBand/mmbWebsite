@@ -7,7 +7,7 @@ menu:
   main:
     parent: 'Schedule'
 
-all-day: false
+allDay: false
 category: concert
 startDate: "2019-12-13 19:00:00"
 endDate: "2019-12-13 20:00:00"

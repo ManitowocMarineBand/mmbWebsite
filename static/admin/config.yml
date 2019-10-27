@@ -111,7 +111,7 @@ collections:
     fields:
       - { name: "fileName", label: "File Name" }
       - { name: "title", label: "Title" }
-      - { name: "all-day", label: "All Day?", widget: "boolean", default: false }
+      - { name: "allDay", label: "All Day?", widget: "boolean", default: false }
       - { name: "startDate", label: "Start Time", widget: "datetime" }
       - { name: "endDate", label: "End Time", widget: "datetime" }
       - { name: "location", label: "Location" }
