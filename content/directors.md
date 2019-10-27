@@ -1,7 +1,6 @@
 ---
-title: "Directors"
-date: 2019-08-24T16:38:30-05:00
-menu: 
+title: Directors
+menu:
   main:
     weight: 400
 ---
@@ -11,7 +10,7 @@ menu:
 
 {{< img src="directors/CoreyVanSickle.png" class="right" alt="Corey Van Sickle" >}}
 
-Corey Van Sickle is the director of the Manitowoc Marine Band for the 2018 season.  He received his bachelor's degree from UW-Eau Claire where he studied trombone with Dr. Philip Ostrander and conducting with Dr. Richard Mark Heidel.  Corey has been a music educator in the area since 2008.  He has taught at Roncalli High School, St. Francis Middle School, Manitowoc Public School District Summer Band Bash, and has taught numerous students privately.
+Corey Van Sickle is the director of the Manitowoc Marine Band for the 2018 season.  He received his bachelor's degree from UW-Eau Claire where he studied trombone with Dr. Philip Ostrander and conducting with Dr. Richard Mark Heidel.  Corey has been a music educator in the area since 2008.  He has taught at Roncalli High School, St. Francis Middle School, Manitowoc Public School District Summer Band Bash, and has taught numerous students privately. kjhgkjhg
 
 Currently he performs on trombone and bass trombone with the Lakeshore Wind Ensemble, Generations Jazz Band, Newtonburg Brass Band, and the Eddie Larsen Dance Band.  He also directs the senior choir and handbell choir at Redeemer Lutheran Church.  He has performed with groups throughout Wisconsin, and he has toured with music groups in Ireland, England, and Japan.
 
