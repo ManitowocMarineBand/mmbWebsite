@@ -6,7 +6,7 @@
         "start": "2019-06-13 18:30:00",
         "end": "2019-06-13 19:30:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-06-13.around_the_world/",
+        "url": "https://www.manitowocmarineband.org/event/2019-06-13-around_the_world/",
         "extendedProps": {
             "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
             "category": "concert",
@@ -20,7 +20,7 @@
         "start": "2019-12-13 19:00:00",
         "end": "2019-12-13 20:00:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-12-13.christmas_highlights/",
+        "url": "https://www.manitowocmarineband.org/event/2019-12-13-christmas_highlights/",
         "extendedProps": {
             "location": "Manitowoc Senior Center, 3330 Custer St, Manitowoc, WI 54220, USA",
             "category": "concert",
@@ -34,7 +34,7 @@
         "start": "2019-08-08 18:30:00",
         "end": "2019-08-08 19:30:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-08-08.cruiser_night/",
+        "url": "https://www.manitowocmarineband.org/event/2019-08-08-cruiser_night/",
         "extendedProps": {
             "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
             "category": "concert",
@@ -48,7 +48,7 @@
         "start": "2019-07-04 16:00:00",
         "end": "2019-07-04 17:00:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-07-04.fourth_on_the_shore/",
+        "url": "https://www.manitowocmarineband.org/event/2019-07-04-fourth_on_the_shore/",
         "extendedProps": {
             "location": "Baymont by Wyndham Manitowoc Lakefront, 101 Maritime Dr, Manitowoc, WI 54220, USA",
             "category": "concert",
@@ -62,7 +62,7 @@
         "start": "2019-07-26 18:30:00",
         "end": "2019-07-26 19:30:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-07-26.kids_disney/",
+        "url": "https://www.manitowocmarineband.org/event/2019-07-26-kids_disney/",
         "extendedProps": {
             "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
             "category": "concert",
@@ -76,7 +76,7 @@
         "start": "2019-07-10 18:30:00",
         "end": "2019-07-10 19:30:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-07-10.season_highlights/",
+        "url": "https://www.manitowocmarineband.org/event/2019-07-10-season_highlights/",
         "extendedProps": {
             "location": "Public Square, Two Rivers, WI",
             "category": "concert",
@@ -90,7 +90,7 @@
         "start": "2019-06-27 18:30:00",
         "end": "2019-06-27 19:30:00",
         "allDay": false,
-        "url": "https://www.manitowocmarineband.org/event/2019-06-27.songs_of_screen_and_stage/",
+        "url": "https://www.manitowocmarineband.org/event/2019-06-27-songs_of_screen_and_stage/",
         "extendedProps": {
             "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
             "category": "concert",
