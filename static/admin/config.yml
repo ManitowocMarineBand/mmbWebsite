@@ -103,14 +103,14 @@ collections:
     folder: "content/event"
     create: true
     extension: md
-    slug: "{{year}}_{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path_date_field: "startDate"
     filter:
       field: language
       value: en
     fields:
       - { name: "title", label: "Title" }
-      - { name: "allday", label: "All Day?", widget: "boolean", required: false }
+      - { name: "allday", label: "All Day?", widget: "boolean", default: false }
       - { name: "startDate", label: "Start Time", widget: "datetime" }
       - { name: "endDate", label: "End Time", widget: "datetime" }
       - { name: "location", label: "Location" }
