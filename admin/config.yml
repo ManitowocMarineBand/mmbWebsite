@@ -101,7 +101,7 @@ collections:
   - name: "events"
     label: "Events"
     folder: "content/event"
-    ceate: true
+    create: true
     extension: md
     slug: "{{year}}-{{month}}-{{day}}.{{slug}}"
     preview_path_date_field: startDate
