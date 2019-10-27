@@ -1,0 +1,101 @@
+[
+    
+    
+    {
+        "title": "Around the World",
+        "start": "2019-06-13 18:30:00",
+        "end": "2019-06-13 19:30:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-06-13.around_the_world/",
+        "extendedProps": {
+            "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
+            "category": "concert",
+            "description": "The Manitowoc Marine Band is kicking off the season with a trip around the world. Every nation and culture around the world has a rich musical history and we are going to explore music from Russia, Scotland, England, Japan, Belgium, France, the Caribbean, and of course the good old USA."
+        }
+    }
+    
+    , 
+    {
+        "title": "Christmas Highlights",
+        "start": "2019-12-13 19:00:00",
+        "end": "2019-12-13 20:00:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-12-13.christmas_highlights/",
+        "extendedProps": {
+            "location": "Manitowoc Senior Center, 3330 Custer St, Manitowoc, WI 54220, USA",
+            "category": "concert",
+            "description": "Come early for a chili dinner and stay to celebrate the Christmas season with us as we play Christmas and Holiday Classics. We’ll play many of your favorite Christmas songs, and there may even be a visit from a certain resident of the North Pole!"
+        }
+    }
+    
+    , 
+    {
+        "title": "Cruiser Night",
+        "start": "2019-08-08 18:30:00",
+        "end": "2019-08-08 19:30:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-08-08.cruiser_night/",
+        "extendedProps": {
+            "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
+            "category": "concert",
+            "description": "Bring your classic car and enjoy a night of music from the fifties, sixties and seventies. This is our annual concert and car show, with prizes awarded for the best cars. Music highlights include, Chicago: Pop and Rock Legends, car themed greats, music of Queen, as well as many others."
+        }
+    }
+    
+    , 
+    {
+        "title": "Fourth on the Shore",
+        "start": "2019-07-04 16:00:00",
+        "end": "2019-07-04 17:00:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-07-04.fourth_on_the_shore/",
+        "extendedProps": {
+            "location": "Baymont by Wyndham Manitowoc Lakefront, 101 Maritime Dr, Manitowoc, WI 54220, USA",
+            "category": "concert",
+            "description": "Come celebrate the Fourth of July as the Marine Band celebrates our country with patriotic music. The Concert will feature E.E. Bagley’s National Emblem, Marches by Sousa and Fillmore, America the Beautiful, and many other favorites. Come see the band and stay for the reworks later in the evening!"
+        }
+    }
+    
+    , 
+    {
+        "title": "Kids Disney",
+        "start": "2019-07-26 18:30:00",
+        "end": "2019-07-26 19:30:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-07-26.kids_disney/",
+        "extendedProps": {
+            "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
+            "category": "concert",
+            "description": "This concert is great for kids or people that want to feel like a kid again. Join us as we play great music from Disney and children’s movies as well as other family friendly favorites. Highlights include How to Train Your Dragon, Pirates of the Caribbean, and many others."
+        }
+    }
+    
+    , 
+    {
+        "title": "Season Highlights",
+        "start": "2019-07-10 18:30:00",
+        "end": "2019-07-10 19:30:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-07-10.season_highlights/",
+        "extendedProps": {
+            "location": "Public Square, Two Rivers, WI",
+            "category": "concert",
+            "description": "The Marine Band is hitting the road and playing in Central Park in Two Rivers. We are taking our favorite music from the season with us and performing in the “Cool City.” Come support the Marine Band as well as the Two Rivers Community Band as they provide concessions at the event."
+        }
+    }
+    
+    , 
+    {
+        "title": "Songs of Screen and Stage",
+        "start": "2019-06-27 18:30:00",
+        "end": "2019-06-27 19:30:00",
+        "allDay": false,
+        "url": "https://www.manitowocmarineband.org/event/2019-06-27.songs_of_screen_and_stage/",
+        "extendedProps": {
+            "location": "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA",
+            "category": "concert",
+            "description": "Some of the best music in the past century has been featured on screen in movies and on stage in musicals. The Marine Band will be performing some of the best including music by Rodgers and Hammerstein, The Jersey Boys, The Sound of Music, The Music Man, and many more."
+        }
+    }
+    
+]

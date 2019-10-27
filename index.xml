@@ -17,7 +17,7 @@
       <pubDate>Sun, 25 Aug 2019 13:42:13 -0500</pubDate>
       
       <guid>https://www.manitowocmarineband.org/schedule/</guid>
-      <description> 2019 SCHEDULE  </description>
+      <description>UPCOMING SCHEDULE document.addEventListener(&#39;DOMContentLoaded&#39;, function() { var options = { plugins: [ &#39;list&#39; ], header: false, defaultView: &#39;list&#39;, duration: { day: 365 }, events: { url: &#39;/event/index.json&#39; }, height: &#39;auto&#39;, navLinks: false }; new FullCalendar.Calendar(document.getElementById(&#39;calendar&#39;), options).render(); });   PAST EVENTS document.addEventListener(&#39;DOMContentLoaded&#39;, function() { var beginDate = new Date(); var endDate = new Date(); beginDate.setMonth(0); beginDate.setDate(1); endDate.setDate(endDate.getDate() - 1); var options = { plugins: [ &#39;list&#39; ], header: false, defaultView: &#39;list&#39;, events: { url: &#39;/event/index.</description>
     </item>
     
     <item>
@@ -59,6 +59,15 @@ Recorded out at Silver Lake College in July and August 2014, this CD features au
     </item>
     
     <item>
+      <title>Around the World</title>
+      <link>https://www.manitowocmarineband.org/event/2019-06-13.around_the_world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-06-13.around_the_world/</guid>
+      <description>The Manitowoc Marine Band is kicking off the season with a trip around the world. Every nation and culture around the world has a rich musical history and we are going to explore music from Russia, Scotland, England, Japan, Belgium, France, the Caribbean, and of course the good old USA.</description>
+    </item>
+    
+    <item>
       <title>Auditions</title>
       <link>https://www.manitowocmarineband.org/auditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,12 +79,66 @@ Name  Email Address  Primary Instrument  Secondary Instrument, if applicable  Ph
     </item>
     
     <item>
+      <title>Christmas Highlights</title>
+      <link>https://www.manitowocmarineband.org/event/2019-12-13.christmas_highlights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-12-13.christmas_highlights/</guid>
+      <description>Come early for a chili dinner and stay to celebrate the Christmas season with us as we play Christmas and Holiday Classics. We’ll play many of your favorite Christmas songs, and there may even be a visit from a certain resident of the North Pole!</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://www.manitowocmarineband.org/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.manitowocmarineband.org/contact/</guid>
       <description> CONTACT US Your Name:    Email Address:   Message:      </description>
+    </item>
+    
+    <item>
+      <title>Cruiser Night</title>
+      <link>https://www.manitowocmarineband.org/event/2019-08-08.cruiser_night/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-08-08.cruiser_night/</guid>
+      <description>Bring your classic car and enjoy a night of music from the fifties, sixties and seventies. This is our annual concert and car show, with prizes awarded for the best cars. Music highlights include, Chicago: Pop and Rock Legends, car themed greats, music of Queen, as well as many others.</description>
+    </item>
+    
+    <item>
+      <title>Fourth on the Shore</title>
+      <link>https://www.manitowocmarineband.org/event/2019-07-04.fourth_on_the_shore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-07-04.fourth_on_the_shore/</guid>
+      <description>Come celebrate the Fourth of July as the Marine Band celebrates our country with patriotic music. The Concert will feature E.E. Bagley’s National Emblem, Marches by Sousa and Fillmore, America the Beautiful, and many other favorites. Come see the band and stay for the reworks later in the evening!</description>
+    </item>
+    
+    <item>
+      <title>Kids Disney</title>
+      <link>https://www.manitowocmarineband.org/event/2019-07-26.kids_disney/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-07-26.kids_disney/</guid>
+      <description>This concert is great for kids or people that want to feel like a kid again. Join us as we play great music from Disney and children’s movies as well as other family friendly favorites. Highlights include How to Train Your Dragon, Pirates of the Caribbean, and many others.</description>
+    </item>
+    
+    <item>
+      <title>Season Highlights</title>
+      <link>https://www.manitowocmarineband.org/event/2019-07-10.season_highlights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-07-10.season_highlights/</guid>
+      <description>The Marine Band is hitting the road and playing in Central Park in Two Rivers. We are taking our favorite music from the season with us and performing in the “Cool City.” Come support the Marine Band as well as the Two Rivers Community Band as they provide concessions at the event.</description>
+    </item>
+    
+    <item>
+      <title>Songs of Screen and Stage</title>
+      <link>https://www.manitowocmarineband.org/event/2019-06-27.songs_of_screen_and_stage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.manitowocmarineband.org/event/2019-06-27.songs_of_screen_and_stage/</guid>
+      <description>Some of the best music in the past century has been featured on screen in movies and on stage in musicals. The Marine Band will be performing some of the best including music by Rodgers and Hammerstein, The Jersey Boys, The Sound of Music, The Music Man, and many more.</description>
     </item>
     
   </channel>
