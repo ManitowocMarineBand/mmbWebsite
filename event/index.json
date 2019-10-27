@@ -98,18 +98,4 @@
         }
     }
     
-    , 
-    {
-        "title": "Test Event 2",
-        "start": "2019-10-30T19:00:00.000Z",
-        "end": "2019-10-30T19:11:49.550Z",
-        "allDay": false,
-        "url": "/event/wed-oct-30-2019-14-00-00-gmt-0500-central-daylight-time-test-event-2/",
-        "extendedProps": {
-            "location": "Test Location",
-            
-            "description": "Lorum Ipsum"
-        }
-    }
-    
 ]
