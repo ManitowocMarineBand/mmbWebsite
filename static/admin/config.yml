@@ -102,9 +102,9 @@ collections:
     label: "Event"
     folder: "content/event"
     create: true
+    delete: true
     extension: md
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    preview_path_date_field: "startDate"
+    slug: "{{startDate}}-{{slug}}"
     filter:
       field: language
       value: en
