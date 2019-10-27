@@ -99,18 +99,18 @@ collections:
                   - { name: "weight", label: "Menu Order", widget: "number" }
 
   - name: "events"
-    label: "Events"
+    label: "Event"
     folder: "content/event"
     create: true
     extension: md
-    slug: "{{year}}-{{month}}-{{day}}.{{slug}}"
-    preview_path_date_field: startDate
+    slug: "{{year}}_{{slug}}"
+    preview_path_date_field: "startDate"
     filter:
       field: language
       value: en
     fields:
       - { name: "title", label: "Title" }
-      - { name: "allday", label: "All Day?", widget: "boolean" }
+      - { name: "allday", label: "All Day?", widget: "boolean", required: false }
       - { name: "startDate", label: "Start Time", widget: "datetime" }
       - { name: "endDate", label: "End Time", widget: "datetime" }
       - { name: "location", label: "Location" }
