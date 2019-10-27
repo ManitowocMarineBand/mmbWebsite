@@ -172,15 +172,40 @@ a:hover {
 	float: left;
 	padding: 0 50px;
 	margin-bottom: 50px;
+	
+	&.Auditions {
+		form {
+			display: grid;
+		
+			label {
+				white-space: pre-line;
+				
+				&[required] {
+					span {
+						&:first-of-type {
+							&:after {
+								content: " *";
+								color: red;
+							}
+						}
+					}
+				}
+			}
+			textarea {
+				resize: vertical;
+			}
+			input {
+				&[type="submit"] {
+					margin-top: 15px;
+				}
+			}
+			.sub {
+				font-size: .75em;
+			}
+		}
+	}
 
 	&.Contact {
-		h2 {
-			margin-bottom: 5px;
-		}
-		h5 {
-			margin-top: 5px;
-			margin-bottom: 20px;
-		}
 		input,textarea {
 			margin-top: 5px;
 			margin-bottom: 10px;
