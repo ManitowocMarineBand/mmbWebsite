@@ -11,5 +11,6 @@ allDay: false
 category: concert
 startDate: "2019-07-08 18:30:00"
 endDate: "2019-07-08 19:30:00"
-location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
+location: "Public Square, Two Rivers, WI"
 ---
+Join the Marine band as we visit Wisconsin’s Cool City Two Rivers.  We’ll be playing some of our season highlights including The National Emblem, Blue Skirt Waltz, Them Basses, and A Young Person’s Guide to John Williams.
