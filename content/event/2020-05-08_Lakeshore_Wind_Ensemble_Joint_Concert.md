@@ -11,5 +11,5 @@ allDay: false
 category: concert
 startDate: "2020-05-08 11:30:00"
 endDate: "2020-05-08 13:00:00"
-location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
+location: "TBD"
 ---

@@ -1,7 +1,7 @@
 ---
 title: Holiday Parade
 fileName: 2020-11-25_Holiday_Parade
-draft: false
+draft: true
 type: event
 menu: 
   main:
