@@ -11,5 +11,5 @@ allDay: false
 category: parade
 startDate: "2020-05-25 11:30:00"
 endDate: "2020-05-25 13:00:00"
-location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
+location: "S 8th St and Washington St to N 18th and Michigan Ave, Manitowoc, WI 54220, USA"
 ---
