@@ -8,7 +8,7 @@ menu:
     parent: 'Schedule'
 
 allDay: false
-category: concert
+category: event
 startDate: "2020-10-24 14:00:00"
 endDate: "2020-10-24 20:00:00"
 location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"

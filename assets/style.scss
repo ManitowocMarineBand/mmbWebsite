@@ -241,6 +241,16 @@ a:hover {
 					background-color: #3788d8;
 				}
 			}
+			&.category-parade {
+				.fc-event-dot {
+					background-color: red;
+				}
+			}
+			&.category-event {
+				.fc-event-dot {
+					background-color: green;
+				}
+			}
 		}
 		.fc-list-item-location {
 			font-size: 75%;

@@ -8,7 +8,7 @@ menu:
     parent: 'Schedule'
 
 allDay: false
-category: concert
+category: parade
 startDate: "2020-11-25 18:30:00"
 endDate: "2020-11-25 19:30:00"
 location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
