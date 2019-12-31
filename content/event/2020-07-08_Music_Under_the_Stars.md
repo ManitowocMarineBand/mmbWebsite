@@ -6,6 +6,7 @@ type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2020 - Music Under the Stars
 
 allDay: false
 category: concert

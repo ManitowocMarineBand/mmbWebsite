@@ -1,11 +1,12 @@
 ---
-title: Fourth on the Shoe
+title: Fourth on the Shore
 fileName: 2020-07-04_Fourth_on_the_Shore
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2020 - Fourth on the Shore
 
 allDay: false
 category: concert

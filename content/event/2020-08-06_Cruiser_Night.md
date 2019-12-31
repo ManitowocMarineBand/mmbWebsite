@@ -1,11 +1,12 @@
 ---
-title: Cruiser Night 2020
+title: Cruiser Night
 fileName: 2020-08-06_Cruiser_Night
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2020 - Cruiser Night
 
 allDay: false
 category: concert

@@ -6,6 +6,7 @@ type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2020 - Disney and Kids Music Night
 
 allDay: false
 category: concert
