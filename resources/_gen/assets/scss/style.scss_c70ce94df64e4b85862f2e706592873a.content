@@ -155,6 +155,10 @@ a:hover {
     height: 199px; }
   #main.Schedule .fc-list-item.category-concert .fc-event-dot {
     background-color: #3788d8; }
+  #main.Schedule .fc-list-item.category-parade .fc-event-dot {
+    background-color: red; }
+  #main.Schedule .fc-list-item.category-event .fc-event-dot {
+    background-color: green; }
   #main.Schedule .fc-list-item-location {
     font-size: 75%;
     margin-bottom: 1em; }

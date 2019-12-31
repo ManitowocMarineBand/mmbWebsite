@@ -6,6 +6,7 @@ type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2019 - Cruiser Night
 
 allDay: false
 category: concert

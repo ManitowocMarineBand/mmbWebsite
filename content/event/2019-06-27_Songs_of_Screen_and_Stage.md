@@ -6,6 +6,7 @@ type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2019 - Songs of Screen and Stage
 
 allDay: false
 category: concert

@@ -6,6 +6,7 @@ type: event
 menu: 
   main:
     parent: 'Schedule'
+    name: 2019 - Fourth on the Shore
 
 allDay: false
 category: concert

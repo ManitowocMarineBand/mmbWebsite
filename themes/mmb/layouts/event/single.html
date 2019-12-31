@@ -16,8 +16,12 @@
                 <h2 id="upcoming-schedule">{{ .Page.Title }}
                     <a href="/schedule/">&larr; Back</a>
                 </h2>
+                {{ if .Page.Params.allDay }}
+                <div class="startTime"><span class="label">Start:</span> To Be Determined</div>
+                {{ else }}
                 <div class="startTime"><span class="label">Start:</span> {{ .Page.Params.startDate | dateFormat "Monday, January 02, 2006 3:04:05 pm" }}</div>
                 <div class="endTime"><span class="label">End:</span> {{ .Page.Params.endDate | dateFormat "Monday, January 02, 2006 3:04:05 pm" }}</div>
+                {{ end }}
                 <div class="location"><span class="label">Location:</span> {{ .Page.Params.location }}</div>
                 <div class="description">{{ .Content }}</div>
                 <div class="mapouter">
