@@ -8,7 +8,7 @@ menu:
     parent: 'Schedule'
     name: 2020 - Fourth on the Shore
 
-allDay: false
+allDay: true
 category: concert
 startDate: "2020-07-04 13:00:00"
 endDate: "2020-07-04 14:00:00"

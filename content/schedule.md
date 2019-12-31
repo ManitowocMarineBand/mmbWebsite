@@ -22,7 +22,8 @@ customJs:
       url: '/event/index.json'
     },
     height: 'auto',
-    navLinks: false
+    navLinks: false,
+    allDayText: 'TBD'
   };
 {{< /fullCalendar >}}
 
@@ -46,6 +47,7 @@ customJs:
     visibleRange:{
       start: beginDate,
       end: endDate
-    }
+    },
+    allDayText: 'TBD'
   };
 {{< /fullCalendar >}}
