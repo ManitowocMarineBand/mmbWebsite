@@ -1,7 +1,7 @@
 ---
 title: Music Under the Stars
 fileName: 2020-07-08_Music_Under_the_Stars
-draft: false
+draft: true
 type: event
 menu: 
   main:

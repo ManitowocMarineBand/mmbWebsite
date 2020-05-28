@@ -1,7 +1,7 @@
 ---
 title: Summer Traditions
 fileName: 2020-06-11_Summer_Traditions
-draft: false
+draft: true
 type: event
 menu: 
   main:

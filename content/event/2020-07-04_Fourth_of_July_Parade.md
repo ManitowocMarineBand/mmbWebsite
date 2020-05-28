@@ -1,7 +1,7 @@
 ---
 title: Fourth of July Parade
 fileName: 2020-07-04_Fourth_of_July_Parade
-draft: true
+draft: false
 type: event
 menu: 
   main:

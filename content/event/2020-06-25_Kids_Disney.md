@@ -1,7 +1,7 @@
 ---
 title: Disney and Kids Music Night
 fileName: 2020-06-25_Kids_Disney
-draft: false
+draft: true
 type: event
 menu: 
   main:
