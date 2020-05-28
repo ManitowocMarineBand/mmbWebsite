@@ -1,7 +1,7 @@
 ---
 title: Stage and Screen
 fileName: 2020-07-23_Stage_and_Screen
-draft: false
+draft: true
 type: event
 menu: 
   main:
