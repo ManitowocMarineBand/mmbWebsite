@@ -1,7 +1,7 @@
 ---
 title: Fourth on the Shore
 fileName: 2020-07-04_Fourth_on_the_Shore
-draft: false
+draft: true
 type: event
 menu: 
   main:
