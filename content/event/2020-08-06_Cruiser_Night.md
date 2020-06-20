@@ -1,5 +1,5 @@
 ---
-title: Cruiser Night
+title: Season in a Nutshell/Cruiser Night
 fileName: 2020-08-06_Cruiser_Night
 draft: false
 type: event
