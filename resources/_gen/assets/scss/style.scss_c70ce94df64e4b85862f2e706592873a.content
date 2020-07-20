@@ -1,4 +1,4 @@
-@import url(styles/reset.css);
+@import "styles/reset.css";
 /* -- General Styles -- */
 #wrap {
   width: 850px;
