@@ -1,7 +1,7 @@
 ---
 title: Memorial Day Parade
 fileName: 2021-05-31_Memorial_Day_Parade
-draft: true
+draft: false
 type: event
 menu: 
   main:

@@ -1,7 +1,7 @@
 ---
 title: Song and Dance
 fileName: 2021-07-29_Song_and_Dance
-draft: true
+draft: false
 type: event
 menu: 
   main:

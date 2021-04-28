@@ -8,8 +8,8 @@ menu:
     parent: 'Schedule'
     name: 2021 - Trunk or Treat
 
-allDay: false
-category: parade
+allDay: true
+category: event
 startDate: "2021-10-27"
 endDate: "2021-10-27"
 location: "Manitowoc, WI 54220, USA"

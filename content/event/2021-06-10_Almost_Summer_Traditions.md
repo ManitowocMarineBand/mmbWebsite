@@ -1,7 +1,7 @@
 ---
 title: Almost Summer Traditions
 fileName: 2021-06-10_Summer_Traditions
-draft: true
+draft: false
 type: event
 menu: 
   main:
