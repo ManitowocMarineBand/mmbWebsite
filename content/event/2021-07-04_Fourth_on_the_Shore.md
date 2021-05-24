@@ -14,4 +14,4 @@ startDate: "2021-07-04 14:00:00"
 endDate: "2021-07-04 15:00:00"
 location: "Maritime Museum, Manitowoc, WI 54220, USA"
 ---
-Join the Manitowoc Marine Band as we celebrate the good old U.S.A with patriotic and traditional American Music!  Selections include National Emblem, Bandology, Sepmer Fidelis, Stars and Stripes Forever, and America the Beautiful.
+Celebrate America as the Manitowoc Marine Band performs patriotic favorites including _Semper Fidelis_, _Stars and Stripes_ and many others. We will celebrate America's musical heritage.

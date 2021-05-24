@@ -14,4 +14,4 @@ startDate: "2021-06-24 18:30:00"
 endDate: "2021-06-24 19:30:00"
 location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
 ---
-Whether your a kid or a kid at heart there is music for you on this concert.  The Marine Band will be performing Disney Favorites including “Beauty and the Beast,” and Aladdin, as well as music from the Avengers and Star Wars.  We’ll also include a classic march or two, including Them Basses.
+The Manitowoc Marine band has a fun night of music for Kids ages 1-101. We will include Movie favorites including _How to Train Your Dragon_, _Pirates of the Caribbean_, _Harry Potter_, and of course _Star Wars_. Great music knows no age, so this is a great concert for all ages!

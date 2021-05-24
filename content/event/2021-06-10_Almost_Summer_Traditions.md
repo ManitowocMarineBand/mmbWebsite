@@ -14,4 +14,4 @@ startDate: "2021-06-10 18:30:00"
 endDate: "2021-06-10 19:30:00"
 location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
 ---
-It may not officially be summer yet, but we are kicking off our 123rd season with the sounds off summer band.  We have Sousa marches including Black Horse Troop, Semper Fidelis, and Stars and Stripes Forever, along with the music of Henry Fillmoore and E.E. Bagley.
+The Manitowoc Marine Band is happy to be back performing live this summer! We will kick off the season by celebrating the traditional sounds of outdoor band concerts with marches, polkas, waltzes and a few new pieces! We will include two uniquely Manitowoc pieces of music, _MMB March_ written by former MMB conductor Perry Susek, and _A Jubilant March_, a piece commissioned for the 150th Anniversary of the City of Manitowoc.
