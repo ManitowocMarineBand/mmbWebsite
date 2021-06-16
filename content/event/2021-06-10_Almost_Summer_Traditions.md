@@ -14,4 +14,4 @@ startDate: "2021-06-10 18:30:00"
 endDate: "2021-06-10 19:30:00"
 location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
 ---
-The Manitowoc Marine Band is happy to be back performing live this summer! We will kick off the season by celebrating the traditional sounds of outdoor band concerts with marches, polkas, waltzes and a few new pieces! We will include two uniquely Manitowoc pieces of music, _MMB March_ written by former MMB conductor Perry Susek, and _A Jubilant March_, a piece commissioned for the 150th Anniversary of the City of Manitowoc.
+The Manitowoc Marine Band is happy to be back performing live this summer! We will kick off the season by celebrating the traditional sounds of outdoor band concerts with marches, polkas, waltzes and a few new pieces! We will include two uniquely Manitowoc pieces of music, "MMB March" written by former MMB conductor Perry Susek, and "A Jubilant March", a piece commissioned for the 150th Anniversary of the City of Manitowoc.
