@@ -257,6 +257,12 @@ a:hover {
 			margin-bottom: 1em;
 		}
 		
+		.fc-list-item-description p {
+			font-size: inherit;
+			line-height: inherit;
+			margin: inherit;
+		}
+
 		.fc-list-item-title {
 			font-weight: bold;
 		}

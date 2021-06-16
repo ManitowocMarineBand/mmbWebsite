@@ -14,4 +14,4 @@ startDate: "2021-07-04 14:00:00"
 endDate: "2021-07-04 15:00:00"
 location: "Maritime Museum, Manitowoc, WI 54220, USA"
 ---
-Celebrate America as the Manitowoc Marine Band performs patriotic favorites including _Semper Fidelis_, _Stars and Stripes_ and many others. We will celebrate America’s musical heritage.
+Celebrate America as the Manitowoc Marine Band performs patriotic favorites including "Semper Fidelis", "Stars and Stripes" and many others. We will celebrate America’s musical heritage.

@@ -10,7 +10,7 @@
         "extendedProps": {
             {{ with .Params.location }}"location": "{{ . }}",{{ end }}
             {{ with .Params.category }}"category": "{{ . }}",{{ end }}
-            "description": "{{ trim (.Content | plainify) "\n" }}"
+            "description": "{{ trim (.Content) "\n" }}"
         }
     }
     {{ end }}

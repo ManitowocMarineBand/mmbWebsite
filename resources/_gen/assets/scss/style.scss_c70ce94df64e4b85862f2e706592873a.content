@@ -162,6 +162,10 @@ a:hover {
   #main.Schedule .fc-list-item-location {
     font-size: 75%;
     margin-bottom: 1em; }
+  #main.Schedule .fc-list-item-description p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit; }
   #main.Schedule .fc-list-item-title {
     font-weight: bold; }
   #main.Schedule .other-event span.fc-event-dot {
