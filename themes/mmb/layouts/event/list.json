@@ -6,7 +6,7 @@
         "start": "{{ .Params.startDate }}",
         "end": "{{ .Params.endDate }}",
         "allDay": {{ .Params.allDay }},
-        "url": "{{ .URL }}",
+        "url": "{{ .Permalink }}",
         "extendedProps": {
             {{ with .Params.location }}"location": "{{ . }}",{{ end }}
             {{ with .Params.category }}"category": "{{ . }}",{{ end }}

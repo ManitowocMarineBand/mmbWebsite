@@ -9,7 +9,7 @@ menu:
     name: 2023 - Mischicot_Summer_Hits
 
 allDay: false
-category: parade
+category: concert
 startDate: "2023-06-28 10:00:00"
 endDate: "2023-06-28 10:00:00"
 location: Mischicot, WI
