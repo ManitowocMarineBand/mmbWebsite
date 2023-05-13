@@ -10,6 +10,6 @@ Since 1898, The Manitowoc Marine Band has brought together a wide variety of are
 
 
 
-![](/images/uploads/mmbcover1.jpg)
+![](/images/uploads/mmb_group.jpg)
 
 The Manitowoc Marine Band is dedicated to achieving excellence in music performance and education, while providing opportunities for cultural enrichment, community engagement, and historical preservation.
