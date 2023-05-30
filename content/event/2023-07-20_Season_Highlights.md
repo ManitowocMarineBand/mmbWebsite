@@ -1,12 +1,12 @@
 ---
-title: Music Under the Stars
-fileName: 2023-07-20_Music_Under_the_Stars
+title: Season Highlights
+fileName: 2023-07-20_Season_Highlights
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
-    name: 2023 - Music Under the Stars
+    name: 2023 - Season Highlights
 
 allDay: false
 category: concert
