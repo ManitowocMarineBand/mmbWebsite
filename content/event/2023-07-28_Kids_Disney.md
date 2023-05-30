@@ -1,12 +1,12 @@
 ---
-title: Kids/Disney
+title: Kids & Disney
 fileName: 2023-07-28_Kids_Disney
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
-    name: 2023 - Kids/Disney
+    name: 2023 - Kids & Disney
 
 allDay: false
 category: concert
