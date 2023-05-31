@@ -12,5 +12,5 @@ allDay: false
 category: concert
 startDate: "2023-06-28 10:00:00"
 endDate: "2023-06-28 10:00:00"
-location: Mischicot, WI
+location: Mishicot High/Middle school, 660 Washington St, Mischicot, WI
 ---
