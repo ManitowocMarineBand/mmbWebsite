@@ -10,7 +10,7 @@ menu:
 
 allDay: false
 category: concert
-startDate: "2023-12-08 19:00:00"
+startDate: "2023-12-08 18:30:00"
 endDate: "2023-12-08 20:00:00"
 location: "Franciscan Center For Music Education and Performance, 6751 Calumet Ave, Manitowoc, WI 54220, USA"
 ---
