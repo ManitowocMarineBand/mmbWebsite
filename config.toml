@@ -6,3 +6,8 @@ theme = "mmb"
 
 [outputs]
   section = ["HTML", "JSON"]
+
+[markup]
+  [global.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -6,6 +6,16 @@ menu:
 ---
 ## CONTACT US
 
+You can write to us at: 
+
+Manitowoc Marine Band<br/>
+PO Box 2224<br/>
+Manitowoc, WI 54221-2224
+
+Or send us a message using the form below.
+
+-------------------
+
 <form id='Contact' method='post' action="/contact_thanks/" data-netlify="true" netlify-honeypot="trapit">
   <fieldset >
     <div class='container'>
