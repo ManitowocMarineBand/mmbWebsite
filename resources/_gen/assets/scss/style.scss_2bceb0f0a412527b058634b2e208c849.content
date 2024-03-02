@@ -133,7 +133,8 @@ a:hover {
 #main {
   float: left;
   padding: 0 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: center; }
   #main.Auditions form {
     display: grid; }
     #main.Auditions form label {
