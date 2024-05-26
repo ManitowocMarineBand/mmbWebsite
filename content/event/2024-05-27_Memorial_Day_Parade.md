@@ -10,7 +10,7 @@ menu:
 
 allDay: false
 category: parade
-startDate: "2024-05-29 09:00:00"
-endDate: "2024-05-29 13:00:00"
+startDate: "2024-05-27 09:00:00"
+endDate: "2024-05-27 13:00:00"
 location: "S 8th St and Washington St to N 18th and Michigan Ave, Manitowoc, WI 54220, USA"
 ---
