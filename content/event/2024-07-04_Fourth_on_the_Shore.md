@@ -12,5 +12,5 @@ allDay: false
 category: concert
 startDate: "2024-07-04 14:00:00"
 endDate: "2024-07-04 15:00:00"
-location: "Maritime Museum, Manitowoc, WI 54220, USA"
+location: "Manitowoc YMCA, 205 Maritime Dr, Manitowoc, WI 54220, USA"
 ---

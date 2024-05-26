@@ -1,5 +1,5 @@
 ---
-title: Kids Night
+title: Let's Hear it for the Kids!
 fileName: 2024-08-02_Kids_Night
 draft: false
 type: event

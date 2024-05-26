@@ -1,12 +1,12 @@
 ---
-title: Concert
-fileName: 2024-07-18_Concert
+title: Christmas in July
+fileName: 2024-07-18_Christmas_in_July
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
-    name: 2024 - July 18 Concert
+    name: 2024 - Christmas in July
 
 allDay: false
 category: concert
