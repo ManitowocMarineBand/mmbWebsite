@@ -1,4 +1,4 @@
-baseURL = "https://www.manitowocmarineband.org/"
+#baseURL = "https://www.manitowocmarineband.org/"
 languageCode = "en-us"
 title = "Manitowoc Marine Band"
 googleAnalytics = "UA-111647619-1"
