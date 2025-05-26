@@ -1,16 +1,16 @@
 ---
-title: Let's Hear it for the Kids!
-fileName: 2024-08-02_Kids_Night
+title: Marine and Nature
+fileName: 2025-06-12_Marine_and_Nature
 draft: false
 type: event
 menu: 
   main:
     parent: 'Schedule'
-    name: 2024 - Kids Night
+    name: 2025 - Marine and Nature
 
 allDay: false
 category: concert
-startDate: "2024-08-02 18:30:00"
-endDate: "2024-08-02 19:30:00"
+startDate: "2025-06-12 18:15:00"
+endDate: "2025-06-12 19:15:00"
 location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
 ---
