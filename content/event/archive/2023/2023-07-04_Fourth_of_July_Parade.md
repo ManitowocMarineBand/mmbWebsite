@@ -6,7 +6,7 @@ type: event
 menu: 
   main:
     parent: 'Schedule'
-    name: 2021 - Fourth of July Parade
+    name: 2023 - Fourth of July Parade
 
 allDay: false
 category: parade
