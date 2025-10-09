@@ -1,7 +1,7 @@
 ---
 title: Christmas Concert
-fileName: 2025-12-13_Christmas_Concert
-draft: true
+fileName: 2025-12-19_Christmas_Concert
+draft: false
 type: event
 menu: 
   main:
@@ -10,7 +10,7 @@ menu:
 
 allDay: false
 category: concert
-startDate: "2025-12-13 18:30:00"
-endDate: "2025-12-13 20:00:00"
+startDate: "2025-12-19 18:30:00"
+endDate: "2025-12-19 20:00:00"
 location: "Franciscan Center For Music Education and Performance, 6751 Calumet Ave, Manitowoc, WI 54220, USA"
 ---
