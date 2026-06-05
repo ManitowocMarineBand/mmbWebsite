@@ -7,14 +7,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    {{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Fingerprint }}
+    {{ $style := resources.Get "style.scss" | toCSS | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
     {{ with .Page.Params.customCss }}
       {{ range . }}
     <link rel="stylesheet" href="{{ . }}" media="screen">            
       {{ end }}
     {{ end }}
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ partial "google_analytics.html" . }}
     {{ with .Page.Params.customJs }}
       {{ range . }}
     <script src="{{ . }}"></script>            
@@ -32,7 +32,6 @@
         });
       }
     </script>
-    {{ template "_internal/google_analytics_async.html" . }}
   </head>
   {{ partial "layout.html" . }}
 </html>

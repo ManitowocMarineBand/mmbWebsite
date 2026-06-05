@@ -1,13 +1,20 @@
 #baseURL = "https://www.manitowocmarineband.org/"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Manitowoc Marine Band"
-googleAnalytics = "UA-111647619-1"
 theme = "mmb"
+
+[languages]
+  [languages.en]
+    locale = "en-US"
+
+[services]
+  [services.googleAnalytics]
+    id = "UA-111647619-1"
 
 [outputs]
   section = ["HTML", "JSON"]
 
 [markup]
-  [global.goldmark]
+  [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
