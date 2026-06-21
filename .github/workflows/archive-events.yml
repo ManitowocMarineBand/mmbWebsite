@@ -1,0 +1,78 @@
+name: Archive Past Events
+
+on:
+  schedule:
+    - cron: "15 6 1 1 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Archive old events
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          events_root="content/event"
+          archive_root="${events_root}/archive"
+          current_year="$(date +%Y)"
+          moved_count=0
+
+          shopt -s nullglob
+          for event_file in "${events_root}"/*.md; do
+            start_date_line="$(awk '
+              BEGIN { in_fm=0; started=0 }
+              /^---[[:space:]]*$/ {
+                if (!started) { started=1; in_fm=1; next }
+                if (in_fm) { exit }
+              }
+              in_fm && /^[[:space:]]*startDate[[:space:]]*:/ { print; exit }
+            ' "${event_file}")"
+
+            if [[ -z "${start_date_line}" ]]; then
+              echo "Skipping $(basename "${event_file}"): no startDate"
+              continue
+            fi
+
+            start_date_raw="${start_date_line#*:}"
+            start_date_raw="$(echo "${start_date_raw}" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g; s/^"(.*)"$/\1/; s/^\x27(.*)\x27$/\1/')"
+            start_date_normalized="${start_date_raw/T/ }"
+            start_date_normalized="${start_date_normalized%Z}"
+
+            if ! event_year="$(date -d "${start_date_normalized}" +%Y 2>/dev/null)"; then
+              echo "Skipping $(basename "${event_file}"): invalid startDate '${start_date_raw}'"
+              continue
+            fi
+
+            if (( event_year >= current_year )); then
+              continue
+            fi
+
+            target_dir="${archive_root}/${event_year}"
+            mkdir -p "${target_dir}"
+            mv "${event_file}" "${target_dir}/"
+            moved_count=$((moved_count + 1))
+            echo "Archived $(basename "${event_file}") -> archive/${event_year}/"
+          done
+
+          echo "Archive step complete. Moved files: ${moved_count}"
+
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          if [ -n "$(git status --porcelain content/event)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content/event
+            git commit -m "chore: archive past events"
+            git push
+          else
+            echo "No events to archive."
+          fi
