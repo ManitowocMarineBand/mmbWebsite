@@ -108,9 +108,6 @@ collections:
     editor:
       preview: false
     extension: md
-    filter:
-      field: language
-      value: en
     identifier_field: "fileName"
     fields:
       - { name: "fileName", label: "File Name" }
