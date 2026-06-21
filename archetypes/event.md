@@ -1,10 +1,12 @@
----
+﻿---
 title: "{{ replace .Name "-" " " | title }}"
+fileName: "{{ .Name }}"
 draft: true
 type: event
 
-allday: false
-statDate: {{ .Date }} 
-endDate: {{ dateFormat "2006-01-02T15:04:05" (now.AddDate +1 0 0) }} 
+allDay: false
+startDate: {{ .Date | dateFormat "2006-01-02T15:04:05" }}
+endDate: {{ (now.AddDate 0 0 1).Format "2006-01-02T15:04:05" }}
 location: ""
+category: ""
 ---
