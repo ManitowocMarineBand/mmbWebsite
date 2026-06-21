@@ -9,5 +9,24 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    (async function registerThemePreviewStyle() {
+      CMS.registerPreviewStyle('/styles/reset.css');
+
+      try {
+        const response = await fetch('/', { credentials: 'same-origin' });
+        const html = await response.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        const links = Array.from(doc.querySelectorAll('link[rel="stylesheet"][href]'));
+        const themeLink = links.find((link) => /style\..*\.css$/i.test(link.getAttribute('href') || '')) || links[0];
+
+        if (themeLink) {
+          CMS.registerPreviewStyle(themeLink.getAttribute('href'));
+        }
+      } catch (error) {
+        console.warn('Could not auto-register theme CSS for preview.', error);
+      }
+    })();
+  </script>
 </body>
 </html>
