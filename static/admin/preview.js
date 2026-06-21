@@ -112,8 +112,21 @@
       return window.marked.parse(markdown);
     }
 
-    const escaped = escapeHtml(markdown).replace(/\n\n+/g, "</p><p>").replace(/\n/g, "<br>");
-    return "<p>" + escaped + "</p>";
+    const normalized = String(markdown || "").replace(/\r\n/g, "\n");
+    const blocks = normalized
+      .split(/\n{2,}/)
+      .map(function (block) {
+        return block.trim();
+      })
+      .filter(Boolean)
+      .map(function (block) {
+        if (/^<[^>]+>/.test(block)) {
+          return block;
+        }
+        return "<p>" + escapeHtml(block).replace(/\n/g, "<br>") + "</p>";
+      });
+
+    return blocks.join("\n");
   }
 
   function renderBody(entry, options) {
