@@ -5,7 +5,7 @@ title: On the Road Again
 allDay: false
 startDate: 2026-07-23 18:30:00
 endDate: 2026-07-23 19:30:00
-location: Public Square, Two Rivers, WI
+location: Central Park, 1700 Washington St, Two Rivers, WI 54241
 type: event
 category: concert
 menu:
