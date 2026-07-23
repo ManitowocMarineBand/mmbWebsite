@@ -1,16 +1,16 @@
 ---
-title: On the Road Again
-fileName: 2026-07-23_On_the_Road
 draft: false
-type: event
-menu: 
-  main:
-    parent: 'Schedule'
-    name: 2026 - On the Road Again
-
+fileName: 2026-07-23_On_the_Road
+title: On the Road Again
 allDay: false
+startDate: 2026-07-23 18:30:00
+endDate: 2026-07-23 19:30:00
+location: Public Square, Two Rivers, WI
+type: event
 category: concert
-startDate: "2026-07-23 18:30:00"
-endDate: "2026-07-23 19:30:00"
-location: "Washington Park, 1115 Washington St, Manitowoc, WI 54220, USA"
+menu:
+  main:
+    parent: Schedule
+    name: 2026 - On the Road Again
 ---
+ 
