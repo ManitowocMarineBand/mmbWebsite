@@ -1,7 +1,7 @@
 ---
 title: Sunday Drive in the Park
 fileName: 2026-08-09_Sunday_Drive
-draft: true
+draft: false
 type: event
 menu: 
   main:
