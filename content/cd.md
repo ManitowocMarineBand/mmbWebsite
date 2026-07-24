@@ -13,8 +13,6 @@ $10, available at:
 
 * ACE Hardware
 * Manitowoc Senior Center
-* Roorbach’s Flowers
-* Silver Lake College
 
 Or by calling (920) 973-0604
 
